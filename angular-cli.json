@@ -18,7 +18,8 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "/Users/dylanlafrenz/Documents/PeerEvolve/node_modules/bootstrap/dist/css/bootstrap.css"
       ],
       "scripts": [],
       "environments": {

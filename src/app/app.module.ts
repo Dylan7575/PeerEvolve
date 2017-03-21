@@ -7,25 +7,31 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import {RouterModule} from "@angular/router";
 import { PeerevalComponent } from './peereval/peereval.component';
-import { ClassesComponent } from './classes/classes.component';
+
 import {AuthGuard} from "./auth.guard";
 import {AuthService} from "./auth.service";
+import { TopbarComponent } from './topbar/topbar.component';
+import{ NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import { StudentsComponent } from './students/students.component'
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     PeerevalComponent,
-    ClassesComponent
+    TopbarComponent,
+    StudentsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    NgbModule.forRoot(),
     RouterModule.forRoot([
       {path:'', component:HomeComponent},
-      {path: 'classes', component: ClassesComponent},
-      {path: 'peereval', component:PeerevalComponent, canActivate: [AuthService]}
+      {path: 'peereval', component:PeerevalComponent, canActivate: [AuthService]},
+      {path: 'home', component:HomeComponent},
+      {path: 'students', component:StudentsComponent},
       ])
   ],
   providers: [AuthService],
