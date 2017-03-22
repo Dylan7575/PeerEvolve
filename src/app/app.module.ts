@@ -8,11 +8,13 @@ import { HomeComponent } from './home/home.component';
 import {RouterModule} from "@angular/router";
 import { PeerevalComponent } from './peereval/peereval.component';
 
-import {AuthGuard} from "./auth.guard";
+
 import {AuthService} from "./auth.service";
 import { TopbarComponent } from './topbar/topbar.component';
 import{ NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { StudentsComponent } from './students/students.component'
+import {AdminGuard} from "./admin.guard";
+import { UserhomeComponent } from './userhome/userhome.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { StudentsComponent } from './students/students.component'
     HomeComponent,
     PeerevalComponent,
     TopbarComponent,
-    StudentsComponent
+    StudentsComponent,
+    UserhomeComponent
   ],
   imports: [
     BrowserModule,
@@ -28,13 +31,14 @@ import { StudentsComponent } from './students/students.component'
     HttpModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
-      {path:'', component:HomeComponent},
-      {path: 'peereval', component:PeerevalComponent, canActivate: [AuthService]},
-      {path: 'home', component:HomeComponent},
-      {path: 'students', component:StudentsComponent},
+      {path: '', component:UserhomeComponent},
+      {path:'', component:HomeComponent, canActivate:[AdminGuard]},
+      {path: 'peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
+      {path: 'home', component:HomeComponent,canActivate:[AdminGuard]},
+      {path: 'students', component:StudentsComponent,canActivate:[AdminGuard]},
       ])
   ],
-  providers: [AuthService],
+  providers: [AuthService,AdminGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

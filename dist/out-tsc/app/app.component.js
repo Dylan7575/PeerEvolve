@@ -18,8 +18,7 @@ export var AppComponent = (function () {
         this.getData();
     };
     AppComponent.prototype.getData = function () {
-        this.data = localStorage.getItem('user');
-        console.log(this.data);
+        this.data = localStorage.getItem('admin');
     };
     AppComponent = __decorate([
         Component({

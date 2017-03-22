@@ -8,10 +8,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
+import { Http } from "@angular/http";
 export var PeerevalComponent = (function () {
-    function PeerevalComponent() {
+    function PeerevalComponent(http) {
+        this.http = http;
     }
     PeerevalComponent.prototype.ngOnInit = function () {
+        this.getData();
+    };
+    PeerevalComponent.prototype.getData = function () {
+        var _this = this;
+        this.http.post('http://localhost/untitledfolder/createPeer.php', JSON.stringify(this.data))
+            .subscribe(function (res) { return _this.data = res.json(); });
     };
     PeerevalComponent = __decorate([
         Component({
@@ -19,7 +27,7 @@ export var PeerevalComponent = (function () {
             templateUrl: './peereval.component.html',
             styleUrls: ['./peereval.component.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Http])
     ], PeerevalComponent);
     return PeerevalComponent;
 }());

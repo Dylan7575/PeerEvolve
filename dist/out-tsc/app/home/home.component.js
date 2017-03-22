@@ -12,6 +12,7 @@ import { Http, Headers, RequestOptions } from "@angular/http";
 export var HomeComponent = (function () {
     function HomeComponent(http) {
         this.http = http;
+        this.data = "dcl75";
         this.headers = new Headers({ 'Content-Type': 'application/json' });
         this.options = new RequestOptions({ headers: this.headers });
     }
@@ -20,7 +21,7 @@ export var HomeComponent = (function () {
     };
     HomeComponent.prototype.getData = function () {
         var _this = this;
-        this.http.post('http://localhost/', JSON.stringify("test"))
+        this.http.post('http://localhost/untitledfolder/admin.php', JSON.stringify(this.data))
             .subscribe(function (res) { return _this.data = res.json(); });
     };
     HomeComponent = __decorate([

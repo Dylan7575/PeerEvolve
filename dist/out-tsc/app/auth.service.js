@@ -8,15 +8,23 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Injectable } from '@angular/core';
+import { Http } from "@angular/http";
 export var AuthService = (function () {
-    function AuthService() {
+    function AuthService(http) {
+        this.http = http;
     }
     AuthService.prototype.canActivate = function (route, State) {
-        return true;
+        var _this = this;
+        var user = localStorage.getItem("user");
+        this.http.post('http://localhost/', JSON.stringify(user))
+            .subscribe(function (res) { return _this.data = res.json(); });
+        if (this.data != "auth") {
+            return true;
+        }
     };
     AuthService = __decorate([
         Injectable(), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Http])
     ], AuthService);
     return AuthService;
 }());

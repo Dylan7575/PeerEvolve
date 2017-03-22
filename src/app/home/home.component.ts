@@ -8,7 +8,7 @@ import {ajaxGet} from "rxjs/observable/dom/AjaxObservable";
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-  private data;
+  private data = "dcl75";
   headers =new Headers({ 'Content-Type': 'application/json' });
   options = new RequestOptions({ headers: this.headers });
   constructor(private http:Http) {}
@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
 
   }
   getData(){
-    this.http.post('http://localhost/',JSON.stringify("test"))
+    this.http.post('http://localhost/untitledfolder/admin.php',JSON.stringify(this.data))
         .subscribe(res=>this.data=res.json());
 
   }

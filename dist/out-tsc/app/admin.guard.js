@@ -8,16 +8,25 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Injectable } from "@angular/core";
-export var AuthGuard = (function () {
-    function AuthGuard() {
+import { Http } from "@angular/http";
+export var AdminGuard = (function () {
+    function AdminGuard(http) {
+        this.http = http;
     }
-    AuthGuard.prototype.canActivate = function () {
-        return true;
+    AdminGuard.prototype.canActivate = function () {
+        var _this = this;
+        var user = localStorage.getItem("user");
+        this.http.post('http://localhost/untitledfolder/admin.php', JSON.stringify(this.data))
+            .subscribe(function (res) { return _this.data = res.json(); });
+        if (this.data === "admin") {
+            localStorage.setItem("admin", "true");
+            return true;
+        }
     };
-    AuthGuard = __decorate([
+    AdminGuard = __decorate([
         Injectable(), 
-        __metadata('design:paramtypes', [])
-    ], AuthGuard);
-    return AuthGuard;
+        __metadata('design:paramtypes', [Http])
+    ], AdminGuard);
+    return AdminGuard;
 }());
-//# sourceMappingURL=/Users/dylanlafrenz/Documents/PeerEvolve/src/app/auth.guard.js.map
+//# sourceMappingURL=/Users/dylanlafrenz/Documents/PeerEvolve/src/app/admin.guard.js.map

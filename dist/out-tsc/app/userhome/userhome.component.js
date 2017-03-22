@@ -8,21 +8,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
-export var TopbarComponent = (function () {
-    function TopbarComponent() {
-        this.user = localStorage.getItem("user");
-        this.fullImagePath = './assets/face.png';
+export var UserhomeComponent = (function () {
+    function UserhomeComponent() {
     }
-    TopbarComponent.prototype.ngOnInit = function () {
+    UserhomeComponent.prototype.ngOnInit = function () {
     };
-    TopbarComponent = __decorate([
+    UserhomeComponent = __decorate([
         Component({
-            selector: 'app-topbar',
-            templateUrl: './topbar.component.html',
-            styleUrls: ['./topbar.component.css']
+            selector: 'app-userhome',
+            templateUrl: './userhome.component.html',
+            styleUrls: ['./userhome.component.css']
         }), 
         __metadata('design:paramtypes', [])
-    ], TopbarComponent);
-    return TopbarComponent;
+    ], UserhomeComponent);
+    return UserhomeComponent;
 }());
-//# sourceMappingURL=/Users/dylanlafrenz/Documents/PeerEvolve/src/app/topbar/topbar.component.js.map
+//# sourceMappingURL=/Users/dylanlafrenz/Documents/PeerEvolve/src/app/userhome/userhome.component.js.map

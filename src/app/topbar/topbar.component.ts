@@ -7,6 +7,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 })
 export class TopbarComponent implements OnInit {
   fullImagePath: String;
+  private user = localStorage.getItem("user");
   constructor() {
     this.fullImagePath='./assets/face.png'
   }

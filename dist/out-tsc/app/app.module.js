@@ -19,6 +19,8 @@ import { AuthService } from "./auth.service";
 import { TopbarComponent } from './topbar/topbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StudentsComponent } from './students/students.component';
+import { AdminGuard } from "./admin.guard";
+import { UserhomeComponent } from './userhome/userhome.component';
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -29,7 +31,8 @@ export var AppModule = (function () {
                 HomeComponent,
                 PeerevalComponent,
                 TopbarComponent,
-                StudentsComponent
+                StudentsComponent,
+                UserhomeComponent
             ],
             imports: [
                 BrowserModule,
@@ -37,13 +40,14 @@ export var AppModule = (function () {
                 HttpModule,
                 NgbModule.forRoot(),
                 RouterModule.forRoot([
-                    { path: '', component: HomeComponent },
-                    { path: 'peereval', component: PeerevalComponent, canActivate: [AuthService] },
-                    { path: 'home', component: HomeComponent },
-                    { path: 'students', component: StudentsComponent },
+                    { path: '', component: UserhomeComponent },
+                    { path: '', component: HomeComponent, canActivate: [AdminGuard] },
+                    { path: 'peereval', component: PeerevalComponent, canActivate: [AdminGuard] },
+                    { path: 'home', component: HomeComponent, canActivate: [AdminGuard] },
+                    { path: 'students', component: StudentsComponent, canActivate: [AdminGuard] },
                 ])
             ],
-            providers: [AuthService],
+            providers: [AuthService, AdminGuard],
             bootstrap: [AppComponent]
         }), 
         __metadata('design:paramtypes', [])

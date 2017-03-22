@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Http} from "@angular/http";
 
 @Component({
   selector: 'app-peereval',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PeerevalComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(private http:Http) { }
+  private data;
   ngOnInit() {
+    this.getData();
+  }
+  getData(){
+    this.http.post('http://localhost/untitledfolder/createPeer.php',JSON.stringify(this.data))
+        .subscribe(res=>this.data=res.json());
   }
 
 }
