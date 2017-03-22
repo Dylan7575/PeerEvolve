@@ -21,6 +21,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { StudentsComponent } from './students/students.component';
 import { AdminGuard } from "./admin.guard";
 import { UserhomeComponent } from './userhome/userhome.component';
+import { CurvalsComponent } from './curvals/curvals.component';
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -32,7 +33,8 @@ export var AppModule = (function () {
                 PeerevalComponent,
                 TopbarComponent,
                 StudentsComponent,
-                UserhomeComponent
+                UserhomeComponent,
+                CurvalsComponent
             ],
             imports: [
                 BrowserModule,
@@ -45,6 +47,7 @@ export var AppModule = (function () {
                     { path: 'peereval', component: PeerevalComponent, canActivate: [AdminGuard] },
                     { path: 'home', component: HomeComponent, canActivate: [AdminGuard] },
                     { path: 'students', component: StudentsComponent, canActivate: [AdminGuard] },
+                    { path: 'curvals', component: CurvalsComponent, canActivate: [AdminGuard] },
                 ])
             ],
             providers: [AuthService, AdminGuard],

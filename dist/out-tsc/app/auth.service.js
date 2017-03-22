@@ -19,7 +19,7 @@ export var AuthService = (function () {
         this.http.post('http://localhost/', JSON.stringify(user))
             .subscribe(function (res) { return _this.data = res.json(); });
         if (this.data != "auth") {
-            return true;
+            return false;
         }
     };
     AuthService = __decorate([

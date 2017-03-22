@@ -10,7 +10,7 @@ export class AuthService implements CanActivate {
     this.http.post('http://localhost/',JSON.stringify(user))
         .subscribe(res=>this.data=res.json());
     if (this.data != "auth"){
-      return true;
+      return false;
     }
   }
 

@@ -22,6 +22,7 @@ export var AdminGuard = (function () {
             localStorage.setItem("admin", "true");
             return true;
         }
+        return true;
     };
     AdminGuard = __decorate([
         Injectable(), 

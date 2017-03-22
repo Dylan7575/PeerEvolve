@@ -18,7 +18,7 @@ export class AdminGuard implements CanActivate {
         if (this.data === "admin"){
             localStorage.setItem("admin","true");
             return true;
-
         }
+        return true;
     }
 }
