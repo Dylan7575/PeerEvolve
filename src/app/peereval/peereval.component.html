@@ -1,14 +1,16 @@
 <button routerLink ='/curvals'><span style ="font-size: xx-large" class = "glyphicon glyphicon-chevron-left"></span></button>
 
 <h1>Create a new Peer Evaluation</h1>
-<p>
-  <label>Open Date</label><input type = "text">
-  <label>Close Date</label><input type = "text">
-  <label>Due Date Date</label><input type = "text">
+<form [formGroup]="loginForm" (ngSubmit)="doLogin($event)">
+  <label>Open Date</label><input  formControlName= "OD" type = "date">
+  <label>Close Date</label><input formControlName= "CD" type = "date">
+  <label>Due Date Date</label><input formControlName= "DD" type = "date">
   <select>
     <option value = "default">Default</option>
   </select>
 
 
   <button type="submit">Submit Peer Evaluation</button>
-</p>
+
+</form>
+<p>{{data}}</p>

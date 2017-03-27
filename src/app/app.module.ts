@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -16,6 +16,7 @@ import { StudentsComponent } from './students/students.component'
 import {AdminGuard} from "./admin.guard";
 import { UserhomeComponent } from './userhome/userhome.component';
 import { CurvalsComponent } from './curvals/curvals.component';
+import { EvalstatsComponent } from './evalstats/evalstats.component';
 
 @NgModule({
   declarations: [
@@ -25,12 +26,14 @@ import { CurvalsComponent } from './curvals/curvals.component';
     TopbarComponent,
     StudentsComponent,
     UserhomeComponent,
-    CurvalsComponent
+    CurvalsComponent,
+    EvalstatsComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    ReactiveFormsModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
       {path: '', component:UserhomeComponent},
@@ -39,6 +42,7 @@ import { CurvalsComponent } from './curvals/curvals.component';
       {path: 'home', component:HomeComponent,canActivate:[AdminGuard]},
       {path: 'students', component:StudentsComponent,canActivate:[AdminGuard]},
       {path: 'curvals', component:CurvalsComponent,canActivate:[AdminGuard]},
+      {path: 'evalstats', component:EvalstatsComponent}
       ])
   ],
   providers: [AuthService,AdminGuard],

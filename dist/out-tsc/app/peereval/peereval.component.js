@@ -9,17 +9,42 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { Http } from "@angular/http";
+import { FormBuilder } from "@angular/forms";
 export var PeerevalComponent = (function () {
-    function PeerevalComponent(http) {
+    function PeerevalComponent(http, fb) {
         this.http = http;
+        this.fb = fb;
+        this.error = true;
+        this.loginForm = this.fb.group({
+            CD: [" ", this.magic],
+            OD: [" ", this.magic],
+            DD: [" ", this.magic]
+        });
     }
     PeerevalComponent.prototype.ngOnInit = function () {
-        this.getData();
     };
-    PeerevalComponent.prototype.getData = function () {
+    PeerevalComponent.prototype.doLogin = function (event) {
         var _this = this;
-        this.http.post('http://localhost/untitledfolder/createPeer.php', JSON.stringify(this.data))
+        console.log(this.loginForm.value);
+        var b = this.loginForm.value;
+        var cd = b['CD'];
+        var od = b['OD'];
+        var dd = b['DD'];
+        var list = [od, dd, cd];
+        this.http.post('http://localhost/untitledfolder/IP.php', JSON.stringify(list))
             .subscribe(function (res) { return _this.data = res.json(); });
+        //console.log(JSON.stringify(list));
+        console.log(this.data);
+    };
+    PeerevalComponent.prototype.magic = function (c) {
+        var regexp = new RegExp('2{1}[0-9][0-9][0-9]\-(0[1-9]|1[012])\-(0[1-9]|1[1-9]|2[1-9]|3[0-1])');
+        if (regexp.test(c.value)) {
+            this.error = false;
+            console.log("valid");
+        }
+        else
+            this.error = c.value;
+        console.log("not valid");
     };
     PeerevalComponent = __decorate([
         Component({
@@ -27,7 +52,7 @@ export var PeerevalComponent = (function () {
             templateUrl: './peereval.component.html',
             styleUrls: ['./peereval.component.css']
         }), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [Http, FormBuilder])
     ], PeerevalComponent);
     return PeerevalComponent;
 }());
