@@ -1,8 +1,11 @@
 <button routerLink ='/curvals'><span style ="font-size: xx-large" class = "glyphicon glyphicon-chevron-left"></span></button>
 
 <h1>Create a new Peer Evaluation</h1>
-<form [formGroup]="loginForm" (ngSubmit)="doLogin($event)">
-  <label>Open Date</label><input  formControlName= "OD" type = "date">
+<div class="alert alert-danger" *ngIf="!peerEnter.controls['OD'].valid && peerEnter.controls['OD'].touched">Open Date is in the wrong format yyyy-mm-dd</div>
+<div class="alert alert-danger" *ngIf="!peerEnter.controls['CD'].valid && peerEnter.controls['CD'].touched">Close Date is in the wrong format yyyy-mm-dd</div>
+<div class="alert alert-danger" *ngIf="!peerEnter.controls['DD'].valid && peerEnter.controls['DD'].touched">Due Date is in the wrong format yyyy-mm-dd</div>
+<form [formGroup]="peerEnter"  (ngSubmit)="doLogin($event)">
+  <label>Open Date</label><input  formControlName= "OD" type = "date" >
   <label>Close Date</label><input formControlName= "CD" type = "date">
   <label>Due Date Date</label><input formControlName= "DD" type = "date">
   <select>
@@ -10,7 +13,7 @@
   </select>
 
 
-  <button type="submit">Submit Peer Evaluation</button>
+  <button [disabled]= "!peerEnter.valid" type="submit">Submit Peer Evaluation</button>
 
 </form>
 <p>{{data}}</p>
