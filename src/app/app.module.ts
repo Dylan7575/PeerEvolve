@@ -17,6 +17,8 @@ import {AdminGuard} from "./admin.guard";
 import { UserhomeComponent } from './userhome/userhome.component';
 import { CurvalsComponent } from './curvals/curvals.component';
 import { EvalstatsComponent } from './evalstats/evalstats.component';
+import { NewclassComponent } from './newclass/newclass.component';
+
 
 @NgModule({
   declarations: [
@@ -27,7 +29,9 @@ import { EvalstatsComponent } from './evalstats/evalstats.component';
     StudentsComponent,
     UserhomeComponent,
     CurvalsComponent,
-    EvalstatsComponent
+    EvalstatsComponent,
+    NewclassComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -36,13 +40,13 @@ import { EvalstatsComponent } from './evalstats/evalstats.component';
     ReactiveFormsModule,
     NgbModule.forRoot(),
     RouterModule.forRoot([
-      {path: '', component:UserhomeComponent},
       {path:'', component:HomeComponent, canActivate:[AdminGuard]},
       {path: 'peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
       {path: 'home', component:HomeComponent,canActivate:[AdminGuard]},
       {path: 'students', component:StudentsComponent,canActivate:[AdminGuard]},
       {path: 'curvals', component:CurvalsComponent,canActivate:[AdminGuard]},
-      {path: 'evalstats', component:EvalstatsComponent}
+      {path: 'evalstats', component:EvalstatsComponent},
+      {path: 'newclass',component:NewclassComponent}
       ])
   ],
   providers: [AuthService,AdminGuard],

@@ -8,7 +8,8 @@ import {Http} from "@angular/http";
 })
 export class CurvalsComponent implements OnInit {
   public data;
-  public users =[{openDate:"2015-11-23",closeDate:"2015-11-25"}];
+  public users =[{openDate:"2015-11-23",closeDate:"2015-11-25"},
+    {openDate:"2015-11-21"}];
   constructor(public http:Http) { }
 
   ngOnInit() {
