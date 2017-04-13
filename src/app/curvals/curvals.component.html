@@ -1,14 +1,15 @@
-<div class = "page-header"><h1>Current Evaluations<small><button routerLink ='/peereval' class="btn btn-success">Add a new eval</button></small></h1></div>
-
+<div class = "page-header"><h1>Current Evaluations<small><button routerLink ='peereval' class="btn btn-success">Add a new eval</button></small></h1></div>
 <ul class="list-group">
-    <div >
-    <li class="list-group-item" *ngFor="let user of users">
-        <p>{{user.openDate}}</p>
-        <p>Close Date</p>
-        <p>End Date</p>
+
+    <li class="list-group-item" *ngFor="let user of data">
+
+        <p>Open: {{user.openDate}}</p>
+        <p>Close: {{user.closedDate}}</p>
+        <p>Due:  {{user.dueDate}}</p>
         <p>Missing</p>
         <p>Completed</p>
-        <button  class= "btn btn-primary" routerLink ='/evalstats' role ="button" style ="font-size:x-large">View</button>
+
+        <button  (click)="saveID(user.evalID)" class= "btn btn-primary" routerLink ='evalstats'  role ="button" style ="font-size:x-large">View</button>
     </li>
-    </div>
+
 </ul>

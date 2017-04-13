@@ -1,0 +1,16 @@
+<div class = "page-header"><h1>Evaluation for {{class}}</h1></div>
+<form (ngSubmit)="onSubmit()" [formGroup]="form">
+<ul class="list-group">
+
+  <li class="list-group-item" *ngFor="let question of data">
+
+    <p>{{question.StudentID}}</p>
+
+
+
+
+
+  </li>
+</ul>
+
+</form>

@@ -17,9 +17,12 @@ export class HomeComponent implements OnInit {
 
   }
   getData(){
-    this.http.post('http://localhost/untitledfolder/GetClasses.php',JSON.stringify("dcl75")).
+    this.http.post('http://localhost/untitledfolder/GetClasses.php',JSON.stringify(localStorage.getItem("user"))).
         subscribe(res=>this.data=res.json());
         console.log(this.data);
+  }
+  setClass(toClass){
+    localStorage.setItem("class",toClass);
   }
   /*
   getData(){

@@ -2,11 +2,535 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76af3187-b9f5-42dc-b843-ca9f5ced068c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/admin.guard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/admin.guard.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/app.module.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/auth.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/auth.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/auth.service.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/auth.service.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/curvals/curvals.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/curvals/curvals.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/curvals/curvals.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/curvals/curvals.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/evalstats/evalstats.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/evalstats/evalstats.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/evalstats/evalstats.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/evalstats/evalstats.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/home/home.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/home/home.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/home/home.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/home/home.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/new/new.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/new/new.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/new/new.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/new/new.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/newclass/newclass.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/newclass/newclass.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/newclass/newclass.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/newclass/newclass.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/peereval/peereval.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/peereval/peereval.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/peereval/peereval.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/peereval/peereval.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/students/students.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/students/students.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/students/students.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/students/students.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/topbar/topbar.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/topbar/topbar.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/topbar/topbar.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/topbar/topbar.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/userhome/userhome.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/userhome/userhome.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/userhome/userhome.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/app/userhome/userhome.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/environments/environment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/environments/environment.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/environments/environment.prod.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/environments/environment.prod.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/main.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/polyfills.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/polyfills.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/test.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/test.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-grid.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_transitions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_badge.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_transforms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_align.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_borders.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_float.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_sizing.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/isArrayLike.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rxjs/util/isArrayLike.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rxjs/util/isArrayLike.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/rxjs/util/isArrayLike.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/topbar/paris.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-cli.json" afterPath="$PROJECT_DIR$/angular-cli.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md" afterPath="$PROJECT_DIR$/node_modules/bootstrap/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/node_modules/bootstrap/LICENSE" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/README.md" afterPath="$PROJECT_DIR$/node_modules/bootstrap/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/change-version.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/npm-shrinkwrap.json" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/npm-shrinkwrap.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/postcss.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/postcss.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/node_modules/bootstrap/grunt/sauce_browsers.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/dist/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/src/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/README.md" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/alert.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/button.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/carousel.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/collapse.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/dropdown.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/modal.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/phantom.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/phantom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/popover.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/scrollspy.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/tab.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/tooltip.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/unit/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/vendor/qunit.js" afterPath="$PROJECT_DIR$/node_modules/bootstrap/js/tests/vendor/qunit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/package.json" afterPath="$PROJECT_DIR$/node_modules/bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_alert.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_button-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_buttons.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_card.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_carousel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_close.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_code.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_code.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_custom-forms.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_custom-forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_forms.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_grid.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_images.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_images.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_input-group.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_input-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_list-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_media.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_media.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_modal.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_modal.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_nav.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_nav.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_navbar.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_normalize.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_normalize.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_pagination.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_popover.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_popover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_print.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_print.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_progress.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_reboot.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_responsive-embed.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_responsive-embed.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tooltip.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_tooltip.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_type.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_type.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_utilities.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap-reboot.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/bootstrap.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_background-variant.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_background-variant.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_breakpoints.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_breakpoints.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_cards.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_clearfix.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_clearfix.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_forms.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_gradients.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_gradients.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid-framework.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid-framework.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_grid.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_hover.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_hover.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_image.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_image.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_list-group.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_reset-text.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_reset-text.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_screen-reader.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/mixins/_screen-reader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_background.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_background.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_display.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_display.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_flex.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_flex.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_spacing.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_spacing.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_text.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_text.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_visibility.scss" afterPath="$PROJECT_DIR$/node_modules/bootstrap/scss/utilities/_visibility.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" afterPath="$PROJECT_DIR$/node_modules/jquery/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/event.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/AsyncSubject.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Observable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/Observable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Observable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/Observable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Observable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/Observable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/README.md" afterPath="$PROJECT_DIR$/node_modules/rxjs/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subject.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subject.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subject.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subject.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subject.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscriber.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscription.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscription.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscription.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscription.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/Subscription.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/Subscription.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.min.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.min.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/bundles/Rx.min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundCallbackObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/BoundNodeCallbackObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/DeferObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/DeferObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/DeferObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/DeferObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/ErrorObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ForkJoinObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/ForkJoinObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/ForkJoinObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/ForkJoinObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromEventPatternObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/FromObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/FromObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/combineLatest.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/combineLatest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/combineLatest.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/combineLatest.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/AjaxObservable.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/observable/dom/WebSocketSubject.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/audit.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/audit.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/audit.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/audit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/bufferTime.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/bufferTime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/bufferTime.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/bufferTime.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/catch.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/combineLatest.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/combineLatest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/combineLatest.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/combineLatest.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concat.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concat.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concat.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatAll.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatAll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatAll.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatAll.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMap.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMap.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMapTo.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMapTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMapTo.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/concatMapTo.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/count.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/count.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/count.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/count.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/debounce.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/debounce.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/debounce.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/debounce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/defaultIfEmpty.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/defaultIfEmpty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/defaultIfEmpty.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/defaultIfEmpty.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinct.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinct.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinct.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinct.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilChanged.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilChanged.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilChanged.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilChanged.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilKeyChanged.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilKeyChanged.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilKeyChanged.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/distinctUntilKeyChanged.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/do.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/do.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/do.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/do.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/every.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/every.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/every.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/every.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaust.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaustMap.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaustMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaustMap.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/exhaustMap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/expand.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/expand.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/expand.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/expand.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/filter.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/filter.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/filter.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/finally.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/finally.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/finally.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/finally.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/find.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/find.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/find.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/find.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/first.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/first.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/groupBy.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/groupBy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/groupBy.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/groupBy.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/ignoreElements.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/ignoreElements.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/ignoreElements.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/ignoreElements.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/isEmpty.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/isEmpty.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/isEmpty.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/isEmpty.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/last.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/last.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/last.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/last.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/max.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/max.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/max.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/max.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/merge.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/merge.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/merge.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/merge.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeAll.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeAll.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeAll.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeAll.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMap.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMap.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMapTo.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMapTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMapTo.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeMapTo.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/mergeScan.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/min.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/min.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/min.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/min.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/min.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/multicast.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/multicast.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/multicast.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/multicast.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/observeOn.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/onErrorResumeNext.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/onErrorResumeNext.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/onErrorResumeNext.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/onErrorResumeNext.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/pluck.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/publish.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/publish.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/publish.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/publish.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/race.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/race.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/race.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/race.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/reduce.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeat.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/repeatWhen.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retry.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/retryWhen.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/scan.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/scan.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/scan.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/scan.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/sequenceEqual.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/sequenceEqual.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/sequenceEqual.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/sequenceEqual.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/share.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/share.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/share.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/share.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/single.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/single.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/single.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/single.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/single.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/single.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skip.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skip.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skip.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skipUntil.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skipUntil.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skipUntil.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skipUntil.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skipWhile.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skipWhile.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/skipWhile.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/skipWhile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/startWith.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/startWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/startWith.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/startWith.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/subscribeOn.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/subscribeOn.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/subscribeOn.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/subscribeOn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMap.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMap.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMapTo.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMapTo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMapTo.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/switchMapTo.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/throttle.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/throttle.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/throttle.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/throttle.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/timeoutWith.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/timeoutWith.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/timeoutWith.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/timeoutWith.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/toPromise.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/toPromise.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/toPromise.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/toPromise.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/windowTime.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/withLatestFrom.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/withLatestFrom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/withLatestFrom.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/withLatestFrom.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/zip.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/zip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/operator/zip.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/operator/zip.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/package.json" afterPath="$PROJECT_DIR$/node_modules/rxjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/animationFrame.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/asap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/async.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/scheduler/queue.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/AsyncSubject.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/AsyncSubject.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/MiscJSDoc.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/MiscJSDoc.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/Observable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/Observable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/Subject.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/Subject.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/Subscriber.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/Subscriber.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/Subscription.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/Subscription.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/BoundCallbackObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/BoundCallbackObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/BoundNodeCallbackObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/BoundNodeCallbackObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/DeferObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/DeferObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ErrorObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ErrorObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ForkJoinObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/ForkJoinObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromEventObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromEventObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromEventPatternObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromEventPatternObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/FromObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/combineLatest.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/combineLatest.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/dom/AjaxObservable.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/dom/AjaxObservable.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/observable/dom/WebSocketSubject.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/observable/dom/WebSocketSubject.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/audit.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/audit.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferTime.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/bufferTime.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/catch.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/catch.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/combineLatest.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/combineLatest.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concat.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concat.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatAll.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatAll.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMap.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMap.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMapTo.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/concatMapTo.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/count.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/count.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/debounce.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/debounce.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/defaultIfEmpty.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/defaultIfEmpty.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinct.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinct.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilChanged.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilChanged.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilKeyChanged.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/distinctUntilKeyChanged.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/do.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/do.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/every.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/every.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaust.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaust.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaustMap.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/exhaustMap.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/expand.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/expand.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/filter.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/filter.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/finally.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/finally.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/find.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/find.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/first.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/first.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/groupBy.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/groupBy.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/ignoreElements.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/ignoreElements.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/isEmpty.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/isEmpty.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/last.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/last.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/materialize.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/materialize.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/max.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/max.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/merge.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/merge.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeAll.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeAll.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMap.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMap.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMapTo.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeMapTo.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeScan.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/mergeScan.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/min.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/min.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/multicast.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/multicast.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/observeOn.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/observeOn.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/onErrorResumeNext.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/onErrorResumeNext.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/pluck.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/pluck.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publish.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/publish.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/race.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/race.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/reduce.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/reduce.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeat.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeat.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeatWhen.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/repeatWhen.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retry.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retry.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retryWhen.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/retryWhen.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/scan.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/scan.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/sequenceEqual.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/sequenceEqual.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/share.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/share.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/single.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/single.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skip.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skip.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipUntil.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipUntil.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipWhile.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/skipWhile.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/startWith.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/startWith.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/subscribeOn.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/subscribeOn.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMap.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMap.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMapTo.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/switchMapTo.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/throttle.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/throttle.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timeoutWith.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/timeoutWith.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/toPromise.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/toPromise.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowTime.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/windowTime.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/withLatestFrom.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/withLatestFrom.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/operator/zip.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/operator/zip.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/animationFrame.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/animationFrame.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/asap.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/asap.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/async.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/async.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/queue.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/scheduler/queue.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/testing/TestScheduler.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/testing/TestScheduler.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToResult.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/src/util/subscribeToResult.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/testing/TestScheduler.d.ts" afterPath="$PROJECT_DIR$/node_modules/rxjs/testing/TestScheduler.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/testing/TestScheduler.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/testing/TestScheduler.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/util/subscribeToResult.js" afterPath="$PROJECT_DIR$/node_modules/rxjs/util/subscribeToResult.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/rxjs/util/subscribeToResult.js.map" afterPath="$PROJECT_DIR$/node_modules/rxjs/util/subscribeToResult.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/curvals/curvals.component.css" afterPath="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/curvals/curvals.component.html" afterPath="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/curvals/curvals.component.ts" afterPath="$PROJECT_DIR$/src/app/curvals/curvals.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/newclass/newclass.component.html" afterPath="$PROJECT_DIR$/src/app/newclass/newclass.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/newclass/newclass.component.ts" afterPath="$PROJECT_DIR$/src/app/newclass/newclass.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/peereval/peereval.component.html" afterPath="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" afterPath="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.css" afterPath="$PROJECT_DIR$/src/app/students/students.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.html" afterPath="$PROJECT_DIR$/src/app/students/students.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.ts" afterPath="$PROJECT_DIR$/src/app/students/students.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/topbar/topbar.component.css" afterPath="$PROJECT_DIR$/src/app/topbar/topbar.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/topbar/topbar.component.html" afterPath="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" afterPath="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/userhome/userhome.component.html" afterPath="$PROJECT_DIR$/src/app/userhome/userhome.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" afterPath="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -25,73 +549,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="curvals.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.html">
+      <file leaf-file-name="uploadcsv.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
-              <folding>
-                <element signature="n#style#0;n#button#0;n#li#0;n#div#0;n#ul#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newclass.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="userhome.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
+      <file leaf-file-name="students.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/students/students.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="88" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
+      <file leaf-file-name="userhome.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="curvals.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.service.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/auth.service.spec.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="curvals.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="315">
+              <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -99,11 +581,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.spec.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/home/home.component.spec.ts">
+      <file leaf-file-name="userhome.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadcsv.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#94#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="userhome.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="students.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/students/students.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -112,21 +626,29 @@
       <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+            <state relative-caret-position="256">
+              <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <file leaf-file-name="newclass.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newclass.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,8 +658,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="JavaScript File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -147,6 +669,8 @@
       <find>dist</find>
       <find>out</find>
       <find>server</find>
+      <find>dropdown</find>
+      <find>this.files</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -155,32 +679,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Info.js" />
         <option value="$PROJECT_DIR$/src/tsconfig.json" />
-        <option value="$PROJECT_DIR$/angular-cli.json" />
         <option value="$PROJECT_DIR$/src/styles.css" />
-        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.css" />
         <option value="$PROJECT_DIR$/src/assets/indexf.php" />
-        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/auth.guard.ts" />
-        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/src/app/auth.service.ts" />
         <option value="$PROJECT_DIR$/src/app/admin.guard.ts" />
-        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
-        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/src/app/server.js" />
         <option value="$PROJECT_DIR$/dist/styles.bundle.js" />
         <option value="$PROJECT_DIR$/dist/server.js" />
-        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
-        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
-        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" />
+        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" />
+        <option value="$PROJECT_DIR$/src/app/dropdown/dropdown.component.html" />
+        <option value="$PROJECT_DIR$/src/app/topbar/ham.js" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/angular-cli.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.css" />
+        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.html" />
         <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/students/students.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/students/students.component.css" />
         <option value="$PROJECT_DIR$/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
+        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.css" />
+        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.html" />
+        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
+        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
+        <option value="$PROJECT_DIR$/src/app/peertake/peertake.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/peertake/QuestionBase.ts" />
+        <option value="$PROJECT_DIR$/src/app/peertake/TextboxQuestion.ts" />
+        <option value="$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/question-control-service.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/question-service.service.ts" />
+        <option value="$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.html" />
+        <option value="$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.html" />
+        <option value="$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/peertake/peertake.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html" />
+        <option value="$PROJECT_DIR$/src/app/students/students.component.html" />
+        <option value="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts" />
       </list>
     </option>
   </component>
@@ -199,7 +748,7 @@
     <option name="x" value="720" />
     <option name="y" value="23" />
     <option name="width" value="720" />
-    <option name="height" value="822" />
+    <option name="height" value="817" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -216,7 +765,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -280,7 +828,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
+              <option name="myItemId" value="userhome" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -302,12 +850,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="curvals" />
+              <option name="myItemId" value="uploadcsv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeerEvolve" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeerEvolve" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="students" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,11 +898,11 @@
       <recent name="$PROJECT_DIR$/src/app/topbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/app/peertake" />
       <recent name="$PROJECT_DIR$/src/app" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/app/topbar" />
-      <recent name="$PROJECT_DIR$/src/app/pictures" />
     </key>
   </component>
   <component name="RunManager">
@@ -419,34 +990,42 @@
       <workItem from="1490622135077" duration="3130000" />
       <workItem from="1490625537587" duration="10660000" />
       <workItem from="1490649226657" duration="4586000" />
+      <workItem from="1490851602696" duration="10529000" />
+      <workItem from="1490990698121" duration="10734000" />
+      <workItem from="1491251899674" duration="140000" />
+      <workItem from="1491276384139" duration="13881000" />
+      <workItem from="1491409099899" duration="18069000" />
+      <workItem from="1491950778550" duration="7847000" />
+      <workItem from="1492023854007" duration="1218000" />
+      <workItem from="1492045829082" duration="2373000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71263000" />
+    <option name="totallyTimeSpent" value="136054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="720" y="23" width="720" height="822" extended-state="0" />
+    <frame x="720" y="23" width="720" height="817" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21173105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33835617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33931035" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,170 +1048,172 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.css">
+    <entry file="file://$PROJECT_DIR$/angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="21" column="96" lean-forward="false" selection-start-line="21" selection-start-column="96" selection-end-line="21" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/upload/upload.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="382">
+          <caret line="26" column="95" lean-forward="false" selection-start-line="26" selection-start-column="95" selection-end-line="26" selection-end-column="95" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/indexf.php" />
-    <entry file="file://$PROJECT_DIR$/dist/favicon.ico" />
-    <entry file="file://$PROJECT_DIR$/dist/assets/face.png" />
-    <entry file="file://$PROJECT_DIR$/dist/main.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/dist/polyfills.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/dist/inline.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/dist/styles.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/dist/vendor.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/e2e/app.po.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/e2e/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/e2e/app.e2e-spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html" />
-    <entry file="file://$PROJECT_DIR$/dist/server.js" />
-    <entry file="file://$PROJECT_DIR$/src/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/polyfills.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#75#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles.css">
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="80" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="58" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/QuestionBase.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/TextboxQuestion.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/question-service.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="44" />
+          <caret line="17" column="60" lean-forward="false" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.css" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/question-control-service.service.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/question-service.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/question-control-service.service.spec.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/auth.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="435">
+          <caret line="53" column="4" lean-forward="false" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -642,151 +1223,139 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/admin.guard.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
+        <state relative-caret-position="195">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="36" selection-end-column="48" />
+        <state relative-caret-position="135">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="156" lean-forward="false" selection-start-line="5" selection-start-column="156" selection-end-line="5" selection-end-column="156" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IP.php">
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/new/new.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/auth.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
           <folding>
-            <element signature="e#0#58#0" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#button#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
           <folding>
             <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="45">
+          <caret line="3" column="60" lean-forward="false" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="24" column="42" lean-forward="false" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="26" lean-forward="false" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding>
-            <element signature="n#style#0;n#button#0;n#li#0;n#div#0;n#ul#0;n#!!top" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="88" lean-forward="false" selection-start-line="10" selection-start-column="87" selection-end-line="10" selection-end-column="88" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="15" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#94#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

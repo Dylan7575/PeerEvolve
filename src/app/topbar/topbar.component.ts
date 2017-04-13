@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+
 @Component({
   selector: 'app-topbar',
   templateUrl: './topbar.component.html',
@@ -8,6 +9,7 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 export class TopbarComponent implements OnInit {
   fullImagePath: String;
   private user = localStorage.getItem("user");
+  private class= localStorage.getItem("class");
   constructor() {
     this.fullImagePath='./assets/face.png'
   }

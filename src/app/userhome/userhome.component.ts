@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {Http} from "@angular/http";
 
 @Component({
   selector: 'app-userhome',
@@ -6,10 +7,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./userhome.component.css']
 })
 export class UserhomeComponent implements OnInit {
-
-  constructor() { }
+  private data;
+  private user = localStorage.getItem("user");
+  constructor(private http: Http) { }
 
   ngOnInit() {
+    this.getData();
   }
+  getData(){
+    this.http.post('http://localhost/untitledfolder/GetUserVals.php',JSON.stringify(this.user))
+        .subscribe(res=>this.data=res.json());
+  }
+  public  saveID(toStore){
+    localStorage.setItem("evalID",toStore);
+  }
+
 
 }

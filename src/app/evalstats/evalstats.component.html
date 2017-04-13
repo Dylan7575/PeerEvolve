@@ -1,3 +1,21 @@
-<p>
-  evalstats works!
-</p>
+<button routerLink ='/curvals'><span style ="font-size: xx-large" class = "glyphicon glyphicon-chevron-left"></span></button>
+<div>
+<h1>Stats for {{evalid}}</h1>
+<button style="margin-right: 1%" class ="btn btn-success"(click)="downloadFile()">Download  CSV</button>
+</div>
+
+
+
+
+
+
+<ul class="list-group">
+<li class="list-group-item" *ngFor="let user of data">
+
+  <p>Evaluator: {{user.EvaluatorID}}</p>
+  <p>EvalID: {{user.EvaluateeID}}</p>
+  <p>Completed:  {{user.DateCompleted}}</p>
+  <p>Score: {{user.Score}}</p>
+  <p>Group: {{user.GroupID}}</p>
+  </li>
+</ul>

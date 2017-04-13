@@ -30,13 +30,14 @@ export class PeerevalComponent implements OnInit {
     let cd = b['CD'];
     let od = b['OD'];
     let dd= b['DD'];
-    let list: string[] = [od,dd,cd];
+    let list: string[] = [od,dd,cd,localStorage.getItem("")];
 
 
       this.http.post('http://localhost/untitledfolder/IP.php',JSON.stringify(list))
           .subscribe(res=>this.data=res.json());
       //console.log(JSON.stringify(list));
       console.log(this.data);
+      this.peerEnter.reset();
 
 
   }

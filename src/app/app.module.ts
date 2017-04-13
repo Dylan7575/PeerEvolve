@@ -11,13 +11,21 @@ import { PeerevalComponent } from './peereval/peereval.component';
 
 import {AuthService} from "./auth.service";
 import { TopbarComponent } from './topbar/topbar.component';
-import{ NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import{NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import { StudentsComponent } from './students/students.component'
 import {AdminGuard} from "./admin.guard";
 import { UserhomeComponent } from './userhome/userhome.component';
 import { CurvalsComponent } from './curvals/curvals.component';
 import { EvalstatsComponent } from './evalstats/evalstats.component';
 import { NewclassComponent } from './newclass/newclass.component';
+import { UploadcsvComponent } from './uploadcsv/uploadcsv.component';
+import {AlertModule} from "ng2-bootstrap";
+import { UploadComponent } from './upload/upload.component';
+import {Ng2UploaderModule} from 'ng2-uploader';
+import { PeertakeComponent } from './peertake/peertake.component';
+
+
+
 
 
 @NgModule({
@@ -31,6 +39,9 @@ import { NewclassComponent } from './newclass/newclass.component';
     CurvalsComponent,
     EvalstatsComponent,
     NewclassComponent,
+    UploadcsvComponent,
+    UploadComponent,
+    PeertakeComponent,
 
   ],
   imports: [
@@ -39,14 +50,23 @@ import { NewclassComponent } from './newclass/newclass.component';
     HttpModule,
     ReactiveFormsModule,
     NgbModule.forRoot(),
+    AlertModule.forRoot(),
+    Ng2UploaderModule,
+
     RouterModule.forRoot([
-      {path:'', component:HomeComponent, canActivate:[AdminGuard]},
-      {path: 'peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
+      {path: '',redirectTo: 'home',pathMatch:'full'},
+      {path: 'curvals/peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
       {path: 'home', component:HomeComponent,canActivate:[AdminGuard]},
       {path: 'students', component:StudentsComponent,canActivate:[AdminGuard]},
       {path: 'curvals', component:CurvalsComponent,canActivate:[AdminGuard]},
-      {path: 'evalstats', component:EvalstatsComponent},
-      {path: 'newclass',component:NewclassComponent}
+      {path: 'curvals/evalstats', component:EvalstatsComponent},
+      {path: 'home/newclass',component:NewclassComponent},
+      {path: 'students/uploadcsv',component:UploadcsvComponent},
+      {path: 'userhome',component:UserhomeComponent},
+      {path: 'userhome/peertake',component:PeertakeComponent}
+
+
+
       ])
   ],
   providers: [AuthService,AdminGuard],
