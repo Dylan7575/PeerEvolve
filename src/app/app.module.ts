@@ -23,10 +23,10 @@ import {AlertModule} from "ng2-bootstrap";
 import { UploadComponent } from './upload/upload.component';
 import {Ng2UploaderModule} from 'ng2-uploader';
 import { PeertakeComponent } from './peertake/peertake.component';
-
-
-
-
+import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
+import {QuestionControlService} from "./question-control-service.service";
+import {QuestionService} from "./question-service.service";
 
 @NgModule({
   declarations: [
@@ -42,6 +42,8 @@ import { PeertakeComponent } from './peertake/peertake.component';
     UploadcsvComponent,
     UploadComponent,
     PeertakeComponent,
+    DynamicFormComponent,
+    DynamicFormQuestionComponent,
 
   ],
   imports: [
@@ -69,7 +71,7 @@ import { PeertakeComponent } from './peertake/peertake.component';
 
       ])
   ],
-  providers: [AuthService,AdminGuard],
+  providers: [AuthService,AdminGuard,QuestionControlService,QuestionService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
