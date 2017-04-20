@@ -9,9 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component, Input } from '@angular/core';
 import { Http } from "@angular/http";
+import { Router } from "@angular/router";
 export var PeertakeComponent = (function () {
-    function PeertakeComponent(http) {
+    function PeertakeComponent(http, router) {
         this.http = http;
+        this.router = router;
         this.classs = localStorage.getItem("class");
         this.sender = [];
         this.errorMessage = [];
@@ -92,7 +94,7 @@ export var PeertakeComponent = (function () {
         }
         alert("Peer Evaluation successfully submitted");
         this.form.reset();
-        document.location.href = "/userhome";
+        this.router.navigateByUrl("userhome");
     };
     __decorate([
         Input(), 
@@ -112,7 +114,7 @@ export var PeertakeComponent = (function () {
             templateUrl: './peertake.component.html',
             styleUrls: ['./peertake.component.css']
         }), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [Http, Router])
     ], PeertakeComponent);
     return PeertakeComponent;
 }());

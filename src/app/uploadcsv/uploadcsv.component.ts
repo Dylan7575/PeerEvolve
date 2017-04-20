@@ -1,6 +1,7 @@
 import {Component, OnInit, Inject, NgZone, ViewChild, Input, ElementRef} from '@angular/core';
 import { Ng2UploaderModule } from 'ng2-uploader'
 import {Http} from "@angular/http";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-uploadcsv',
@@ -10,20 +11,19 @@ import {Http} from "@angular/http";
 export class UploadcsvComponent{
   uploadFile: any;
   hasBaseDropZoneOver: boolean = false;
+  private success='false';
   options: Object = {
+    data:{'class':localStorage.getItem("class")},
     url: 'http://localhost/untitledfolder/upload.php'
   };
   sizeLimit = 2000000;
-
+  constructor(private router:Router){}
   handleUpload(data): void {
-    if (data && data.response) {
-      data = JSON.parse(data.response);
+    if (data) {
       this.uploadFile = data;
+      alert("File successfully uploaded");
+      this.router.navigateByUrl("students");
     }
-  }
-
-  fileOverBase(e:any):void {
-    this.hasBaseDropZoneOver = e;
   }
 
   beforeUpload(uploadingFile): void {
@@ -33,11 +33,3 @@ export class UploadcsvComponent{
     }
   }
 }
-
-
-
-
-
-
-
-

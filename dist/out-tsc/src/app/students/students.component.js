@@ -7,13 +7,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { Http } from "@angular/http";
 export var StudentsComponent = (function () {
-    function StudentsComponent(http) {
+    function StudentsComponent(ref, http) {
+        var _this = this;
+        this.ref = ref;
         this.http = http;
         this.classID = localStorage.getItem("class");
+        this.showing = false;
+        setInterval(function () {
+            _this.ref.detectChanges();
+            _this.getData();
+        }, 1000);
     }
+    StudentsComponent.prototype.ngOnChanges = function () {
+        this.getData();
+    };
     StudentsComponent.prototype.ngOnInit = function () {
         this.getData();
     };
@@ -22,13 +32,19 @@ export var StudentsComponent = (function () {
         this.http.post('http://localhost/untitledfolder/GetStudents.php', JSON.stringify(this.classID))
             .subscribe(function (res) { return _this.data = res.json(); });
     };
+    StudentsComponent.prototype.show = function () {
+        this.showing = true;
+    };
+    StudentsComponent.prototype.change = function (event) {
+        this.showing = event;
+    };
     StudentsComponent = __decorate([
         Component({
             selector: 'app-students',
             templateUrl: './students.component.html',
             styleUrls: ['./students.component.css']
         }), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [ChangeDetectorRef, Http])
     ], StudentsComponent);
     return StudentsComponent;
 }());

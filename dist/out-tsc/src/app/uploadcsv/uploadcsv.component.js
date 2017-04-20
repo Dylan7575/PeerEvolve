@@ -8,22 +8,24 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Component } from '@angular/core';
+import { Router } from "@angular/router";
 export var UploadcsvComponent = (function () {
-    function UploadcsvComponent() {
+    function UploadcsvComponent(router) {
+        this.router = router;
         this.hasBaseDropZoneOver = false;
+        this.success = 'false';
         this.options = {
+            data: { 'class': localStorage.getItem("class") },
             url: 'http://localhost/untitledfolder/upload.php'
         };
         this.sizeLimit = 2000000;
     }
     UploadcsvComponent.prototype.handleUpload = function (data) {
-        if (data && data.response) {
-            data = JSON.parse(data.response);
+        if (data) {
             this.uploadFile = data;
+            alert("File successfully uploaded");
+            this.router.navigateByUrl("students");
         }
-    };
-    UploadcsvComponent.prototype.fileOverBase = function (e) {
-        this.hasBaseDropZoneOver = e;
     };
     UploadcsvComponent.prototype.beforeUpload = function (uploadingFile) {
         if (uploadingFile.size > this.sizeLimit) {
@@ -37,7 +39,7 @@ export var UploadcsvComponent = (function () {
             templateUrl: './uploadcsv.component.html',
             styleUrls: ['./uploadcsv.component.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Router])
     ], UploadcsvComponent);
     return UploadcsvComponent;
 }());

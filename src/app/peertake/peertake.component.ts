@@ -5,6 +5,7 @@ import {FormControl, Validators, FormGroup} from "@angular/forms";
 import {TextboxQuestion, DropDownQuestion} from "../../QuestionTextbox";
 import {QuestionModel} from "../QuestionModel";
 import {parseLine} from "tslint/lib/test/lines";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-peertake',
@@ -22,7 +23,7 @@ export class PeertakeComponent implements OnInit {
   @Input() group : any;
   form : FormGroup;
   payLoad:any = [];
-  constructor(public http:Http) {}
+  constructor(public http:Http,private router:Router) {}
 
   ngOnInit() {
 
@@ -109,7 +110,7 @@ export class PeertakeComponent implements OnInit {
       }
       alert("Peer Evaluation successfully submitted");
       this.form.reset();
-          document.location.href="/userhome";
+      this.router.navigateByUrl("userhome");
   }
 
 }

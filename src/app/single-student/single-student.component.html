@@ -1,0 +1,6 @@
+<form [formGroup]="studentEnter"  (ngSubmit)="doLogin($event)">
+  <label>Student ID:</label><input  formControlName= "StudentID" type = "text" >
+  <label>Group</label><input formControlName= "Group" type = "text">
+
+  <button [disabled]= "!studentEnter.valid" type="submit">Submit Peer Evaluation</button>
+</form>

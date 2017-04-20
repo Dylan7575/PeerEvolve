@@ -26,6 +26,7 @@ import { PeertakeComponent } from './peertake/peertake.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
 import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
+import { SingleStudentComponent } from './single-student/single-student.component';
 
 
 
@@ -46,6 +47,7 @@ import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
     DynamicFormComponent,
     DynamicFormQuestionComponent,
     SurveyDemoComponent,
+    SingleStudentComponent,
 
 
   ],
@@ -68,8 +70,7 @@ import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
       {path: 'home/newclass',component:NewclassComponent},
       {path: 'students/uploadcsv',component:UploadcsvComponent},
       {path: 'userhome',component:UserhomeComponent},
-      {path: 'userhome/peertake',component:PeertakeComponent},
-      {path: 'survey',component:SurveyDemoComponent}
+      {path: 'userhome/survey',component:SurveyDemoComponent}
 
 
 
