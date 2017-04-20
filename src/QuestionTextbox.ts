@@ -1,13 +1,26 @@
+
 import {QuestionBase} from "./app/QuestionBase";
-
-
-
-export class TextboxQuestion extends QuestionBase<string> {
+export class DropDownQuestion extends QuestionBase<string>{
+    options = [];
+    user:string;
+    controlType = 'dropdown';
+    constructor(){
+        super();
+    }
+}
+export class TextboxQuestion extends QuestionBase<string>{
+    type:string;
+    user:string;
     controlType = 'textbox';
-    type: string;
-
-    constructor(options: {} = {}) {
-        super(options);
-        this.type = options['type'] || '';
+    constructor(){
+        super();
+    }
+}
+export class ZeroSum extends QuestionBase<string>{
+    type:string;
+    user:string;
+    controlType = 'zerosum';
+    constructor(){
+        super();
     }
 }

@@ -18,8 +18,9 @@ export class UserhomeComponent implements OnInit {
     this.http.post('http://localhost/untitledfolder/GetUserVals.php',JSON.stringify(this.user))
         .subscribe(res=>this.data=res.json());
   }
-  public  saveID(toStore){
+  public  saveID(toStore,toClass){
     localStorage.setItem("evalID",toStore);
+    localStorage.setItem("class",toClass);
   }
 
 

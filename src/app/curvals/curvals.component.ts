@@ -8,14 +8,14 @@ import {Http} from "@angular/http";
 })
 export class CurvalsComponent implements OnInit {
   public data;
-
+  currentClass= JSON.stringify(localStorage.getItem("class"));
   constructor(public http:Http) { }
 
   ngOnInit() {
     this.getData();
   }
   getData(){
-    this.http.post('http://localhost/untitledfolder/GetVals.php',JSON.stringify(localStorage.getItem("class")))
+    this.http.post('http://localhost/untitledfolder/GetVals.php',this.currentClass)
         .subscribe(res=>this.data=res.json());
     console.log(JSON.stringify(this.data));
   }

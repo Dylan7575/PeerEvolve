@@ -7,6 +7,6 @@
     <p>Due Date: {{evals.DueDate}}</p>
     <p>Close Date: {{evals.CloseDate}}</p>
 
-    <button  (click)="saveID(evals.EvalID)" class= "btn btn-primary" routerLink ='peertake'  role ="button" style ="font-size:x-large">Take Peer Eval</button>
+    <button  (click)="saveID(evals.EvalID,evals.CourseID)" class= "btn btn-primary" routerLink ='/survey'  role ="button" style ="font-size:x-large">Take Peer Eval</button>
   </li>
 </ul>

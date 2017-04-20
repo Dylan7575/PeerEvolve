@@ -25,8 +25,9 @@ import {Ng2UploaderModule} from 'ng2-uploader';
 import { PeertakeComponent } from './peertake/peertake.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
-import {QuestionControlService} from "./question-control-service.service";
-import {QuestionService} from "./question-service.service";
+import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
+
+
 
 @NgModule({
   declarations: [
@@ -44,6 +45,8 @@ import {QuestionService} from "./question-service.service";
     PeertakeComponent,
     DynamicFormComponent,
     DynamicFormQuestionComponent,
+    SurveyDemoComponent,
+
 
   ],
   imports: [
@@ -65,13 +68,14 @@ import {QuestionService} from "./question-service.service";
       {path: 'home/newclass',component:NewclassComponent},
       {path: 'students/uploadcsv',component:UploadcsvComponent},
       {path: 'userhome',component:UserhomeComponent},
-      {path: 'userhome/peertake',component:PeertakeComponent}
+      {path: 'userhome/peertake',component:PeertakeComponent},
+      {path: 'survey',component:SurveyDemoComponent}
 
 
 
       ])
   ],
-  providers: [AuthService,AdminGuard,QuestionControlService,QuestionService],
+  providers: [AuthService,AdminGuard],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

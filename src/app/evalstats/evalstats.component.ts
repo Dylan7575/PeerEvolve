@@ -10,14 +10,19 @@ import{Angular2Csv} from 'angular2-csv/Angular2-csv'
 })
 export class EvalstatsComponent implements OnInit {
   private data;
+  private sender=[];
   private evalid=localStorage.getItem("evalID");
   constructor(public http:Http) { }
+  private currentClass =localStorage.getItem("class");
 
   ngOnInit() {
+    this.sender.push(this.evalid);
+    this.sender.push(this.currentClass);
+    console.log(this.sender);
     this.getData();
   }
   getData(){
-    this.http.post('http://localhost/untitledfolder/EvalStats.php',JSON.stringify(localStorage.getItem("class")))
+    this.http.post('http://localhost/untitledfolder/EvalStats.php',JSON.stringify(this.sender))
         .subscribe(res=>this.data=res.json());
 
 
