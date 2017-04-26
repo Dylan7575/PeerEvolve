@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { HttpModule, JsonpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from "@angular/router";
@@ -33,6 +33,9 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
 import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
 import { SingleStudentComponent } from './single-student/single-student.component';
+import { EditStudentComponent } from './edit-student/edit-student.component';
+import { DatePickerModule } from "ng2-datepicker";
+import { DoerBarComponent } from './doer-bar/doer-bar.component';
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -55,6 +58,8 @@ export var AppModule = (function () {
                 DynamicFormQuestionComponent,
                 SurveyDemoComponent,
                 SingleStudentComponent,
+                EditStudentComponent,
+                DoerBarComponent,
             ],
             imports: [
                 BrowserModule,
@@ -64,6 +69,8 @@ export var AppModule = (function () {
                 NgbModule.forRoot(),
                 AlertModule.forRoot(),
                 Ng2UploaderModule,
+                JsonpModule,
+                DatePickerModule,
                 RouterModule.forRoot([
                     { path: '', redirectTo: 'home', pathMatch: 'full' },
                     { path: 'curvals/peereval', component: PeerevalComponent, canActivate: [AdminGuard] },
@@ -74,7 +81,8 @@ export var AppModule = (function () {
                     { path: 'home/newclass', component: NewclassComponent },
                     { path: 'students/uploadcsv', component: UploadcsvComponent },
                     { path: 'userhome', component: UserhomeComponent },
-                    { path: 'userhome/survey', component: SurveyDemoComponent }
+                    { path: 'userhome/survey', component: SurveyDemoComponent },
+                    { path: 'students/editstudents', component: EditStudentComponent }
                 ])
             ],
             providers: [AuthService, AdminGuard],

@@ -2,24 +2,141 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76af3187-b9f5-42dc-b843-ca9f5ced068c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/question-control-service.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/question-control-service.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/question-service.service.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/question-service.service.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/surveydemo/surveydemo.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/surveydemo/surveydemo.component.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/surveydemo/surveydemo.component.spec.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/surveydemo/surveydemo.component.spec.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-container.d.ts" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-container.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-container.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-container.metadata.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/app.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/peertake/peertake.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/peertake/peertake.component.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/peertake/peertake.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/peertake/peertake.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/evalstats/evalstats.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/evalstats/evalstats.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/evalstats/evalstats.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/evalstats/evalstats.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/home/home.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/home/home.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/home/home.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/home/home.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/peereval/peereval.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/peereval/peereval.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/peereval/peereval.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/peereval/peereval.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/students/students.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/students/students.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/students/students.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/students/students.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/survey-demo/survey-demo.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/survey-demo/survey-demo.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/survey-demo/survey-demo.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/survey-demo/survey-demo.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/topbar/topbar.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/topbar/topbar.component.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/uploadcsv/uploadcsv.component.js" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/uploadcsv/uploadcsv.component.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/uploadcsv/uploadcsv.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/uploadcsv/uploadcsv.component.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/ng2-uploader/package.json" afterPath="$PROJECT_DIR$/node_modules/ng2-uploader/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/out-tsc/src/app/userhome/userhome.component.js.map" afterPath="$PROJECT_DIR$/dist/out-tsc/src/app/userhome/userhome.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/accordion/accordion.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/bundles/ng-bootstrap.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/carousel/carousel.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-input.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker-month-view.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/datepicker.module.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/ngb-calendar.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/ngb-calendar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/ngb-calendar.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/datepicker/ngb-calendar.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/index.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-ref.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal-stack.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/modal/modal.module.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/pagination/pagination.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/popover/popover.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/rating/rating.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tabset/tabset.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/timepicker/timepicker.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/tooltip/tooltip.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead-window.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/typeahead/typeahead.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.d.ts" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.js" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.js.map" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.metadata.json" afterPath="$PROJECT_DIR$/node_modules/@ng-bootstrap/ng-bootstrap/util/util.metadata.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" afterPath="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/tether/package.json" afterPath="$PROJECT_DIR$/node_modules/tether/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.html" afterPath="$PROJECT_DIR$/src/app/app.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/newclass/newclass.component.html" afterPath="$PROJECT_DIR$/src/app/newclass/newclass.component.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/peertake/peertake.component.ts" afterPath="$PROJECT_DIR$/src/app/peertake/peertake.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/curvals/curvals.component.css" afterPath="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/curvals/curvals.component.html" afterPath="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" afterPath="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.component.html" afterPath="$PROJECT_DIR$/src/app/home/home.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/home/home.component.ts" afterPath="$PROJECT_DIR$/src/app/home/home.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/peereval/peereval.component.html" afterPath="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" afterPath="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.css" afterPath="$PROJECT_DIR$/src/app/students/students.component.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.html" afterPath="$PROJECT_DIR$/src/app/students/students.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/students/students.component.ts" afterPath="$PROJECT_DIR$/src/app/students/students.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.html" afterPath="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts" afterPath="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/topbar/topbar.component.html" afterPath="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" afterPath="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html" afterPath="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts" afterPath="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/userhome/userhome.component.html" afterPath="$PROJECT_DIR$/src/app/userhome/userhome.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" afterPath="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/dist/" />
@@ -38,31 +155,61 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="peertake.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.html">
+      <file leaf-file-name="peertake.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            <state relative-caret-position="1428">
+              <caret line="112" column="6" lean-forward="false" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="44" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topbar.component.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.html">
+      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+            <state relative-caret-position="60">
+              <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newclass.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
+      <file leaf-file-name="peereval.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="peereval.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evalstats.component.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#button#0;n#!!top" expanded="true" />
               </folding>
@@ -70,78 +217,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="newclass.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.css">
+      <file leaf-file-name="doer-bar.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="peertake.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.ts">
+      <file leaf-file-name="evalstats.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="112" column="41" lean-forward="false" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
+            <state relative-caret-position="165">
+              <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
               <folding>
-                <element signature="e#0#55#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topbar.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.ts">
+      <file leaf-file-name="evalstats.component.spec.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#0#58#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="topbar.component.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadcsv.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html">
+      <file leaf-file-name="evalstats.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uploadcsv.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#94#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -174,6 +289,10 @@
       <find>enterval</find>
       <find>toClass</find>
       <find>consol</find>
+      <find>boot</find>
+      <find>color</find>
+      <find>group</find>
+      <find>xs</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -182,22 +301,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/styles.bundle.js" />
-        <option value="$PROJECT_DIR$/dist/server.js" />
-        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" />
-        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
-        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" />
-        <option value="$PROJECT_DIR$/src/app/dropdown/dropdown.component.html" />
-        <option value="$PROJECT_DIR$/src/app/topbar/ham.js" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/angular-cli.json" />
-        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/students/students.component.css" />
-        <option value="$PROJECT_DIR$/src/app/home/home.component.html" />
-        <option value="$PROJECT_DIR$/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
-        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
-        <option value="$PROJECT_DIR$/src/app/peertake/QuestionBase.ts" />
         <option value="$PROJECT_DIR$/src/app/peertake/TextboxQuestion.ts" />
         <option value="$PROJECT_DIR$/src/app/question-control-service.service.spec.ts" />
         <option value="$PROJECT_DIR$/src/app/question-control-service.service.ts" />
@@ -205,34 +308,50 @@
         <option value="$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.html" />
         <option value="$PROJECT_DIR$/src/app/dynamic-form-question/dynamic-form-question.component.ts" />
         <option value="$PROJECT_DIR$/src/app/question-service.service.ts" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.css" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/app/QuestionBase.ts" />
         <option value="$PROJECT_DIR$/src/app/dynamic-form/dynamic-form.component.ts" />
         <option value="$PROJECT_DIR$/src/app/surveydemo/surveydemo.component.ts" />
         <option value="$PROJECT_DIR$/src/app/QuestionModel.ts" />
         <option value="$PROJECT_DIR$/src/QuestionTextbox.ts" />
-        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.html" />
-        <option value="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts" />
         <option value="$PROJECT_DIR$/src/app/peertake/peertake.component.html" />
-        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.html" />
-        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" />
         <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" />
         <option value="$PROJECT_DIR$/src/app/single-student/single-student.component.html" />
         <option value="$PROJECT_DIR$/src/app/single-student/single-student.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/peertake/peertake.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.html" />
         <option value="$PROJECT_DIR$/src/app/students/students.component.html" />
         <option value="$PROJECT_DIR$/src/app/students/students.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html" />
-        <option value="$PROJECT_DIR$/src/app/peertake/peertake.component.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/node_modules/mydatepicker/src/my-date-picker/my-date-picker.component.css" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.css" />
+        <option value="$PROJECT_DIR$/src/app/students/students.component.css" />
+        <option value="$PROJECT_DIR$/src/app/edit-student/edit-student.component.css" />
+        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.html" />
+        <option value="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html" />
         <option value="$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.html" />
-        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
+        <option value="$PROJECT_DIR$/src/app/edit-student/edit-student.component.html" />
+        <option value="$PROJECT_DIR$/src/app/edit-student/edit-student.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/userhome/userhome.component.html" />
+        <option value="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.html" />
+        <option value="$PROJECT_DIR$/src/app/newclass/newclass.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/curvals/curvals.component.html" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.css" />
+        <option value="$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts" />
         <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.css" />
+        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.html" />
+        <option value="$PROJECT_DIR$/src/app/topbar/topbar.component.html" />
+        <option value="$PROJECT_DIR$/src/app/peereval/peereval.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/home/home.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/home/home.component.html" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/evalstats/evalstats.component.html" />
       </list>
     </option>
   </component>
@@ -248,10 +367,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="722" />
+    <option name="x" value="720" />
     <option name="y" value="23" />
-    <option name="width" value="718" />
-    <option name="height" value="821" />
+    <option name="width" value="720" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -269,7 +388,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -310,52 +428,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PeerEvolve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PeerEvolve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PeerEvolve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PeerEvolve" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="topbar" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -476,12 +555,14 @@
       <workItem from="1492023854007" duration="1218000" />
       <workItem from="1492045829082" duration="7297000" />
       <workItem from="1492188596875" duration="4100000" />
-      <workItem from="1492485757548" duration="48246000" />
+      <workItem from="1492485757548" duration="62716000" />
+      <workItem from="1493003105555" duration="5179000" />
+      <workItem from="1493162599404" duration="11537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193324000" />
+    <option name="totallyTimeSpent" value="224510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -493,19 +574,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="722" y="23" width="718" height="821" extended-state="0" />
+    <frame x="720" y="23" width="720" height="819" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2123386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24892704" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33744857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33837688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -513,6 +593,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -529,15 +610,21 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/surveydemo/surveydemo.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.spec.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -545,7 +632,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/admin.guard.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="28" column="20" lean-forward="false" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mydatepicker/src/my-date-picker/my-date-picker.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mydatepicker/src/my-date-picker/my-date-picker.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="65" column="4" lean-forward="false" selection-start-line="65" selection-start-column="4" selection-end-line="65" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#58#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-student/edit-student.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-student/edit-student.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="72" lean-forward="false" selection-start-line="4" selection-start-column="72" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/edit-student/edit-student.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/upload/upload.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="34" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#56#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#50#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -563,390 +833,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#43#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/auth.service.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="44" lean-forward="false" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/QuestionModel.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#66#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/QuestionBase.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="7" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuestionTextbox.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="40" lean-forward="false" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="25" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#86#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/curvals/curvals.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/single-student/single-student.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="66" lean-forward="false" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/upload/upload.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/upload/upload.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.spec.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-239">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="52" lean-forward="false" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/survey-demo/survey-demo.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="112" column="41" lean-forward="false" selection-start-line="112" selection-start-column="41" selection-end-line="112" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#58#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/uploadcsv/uploadcsv.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#94#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.html">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#button#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/newclass/newclass.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -959,19 +849,185 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/userhome/userhome.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="97" lean-forward="false" selection-start-line="9" selection-start-column="97" selection-end-line="9" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="155" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/students/students.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="20" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="42" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="165">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="26" lean-forward="false" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/topbar/topbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="42" column="14" lean-forward="true" selection-start-line="42" selection-start-column="14" selection-end-line="42" selection-end-column="14" />
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#li#2;n#ul#0;n#nav#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/peertake/peertake.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="112" column="6" lean-forward="false" selection-start-line="112" selection-start-column="6" selection-end-line="112" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/peereval/peereval.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/home/home.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/doer-bar/doer-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="38" lean-forward="false" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/evalstats/evalstats.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="38" column="20" lean-forward="true" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -16,11 +16,14 @@ export var UploadcsvComponent = (function () {
         this.success = 'false';
         this.options = {
             data: { 'class': localStorage.getItem("class") },
-            url: 'http://localhost/untitledfolder/upload.php'
+            url: 'http://localhost/untitledfolder/upload.php',
+            filterExtensions: false,
+            allowedExtensions: ['image/png']
         };
         this.sizeLimit = 2000000;
     }
     UploadcsvComponent.prototype.handleUpload = function (data) {
+        console.log(data.toString());
         if (data) {
             this.uploadFile = data;
             alert("File successfully uploaded");
@@ -32,6 +35,7 @@ export var UploadcsvComponent = (function () {
             uploadingFile.setAbort();
             alert('File is too large');
         }
+        console.log(uploadingFile.toString());
     };
     UploadcsvComponent = __decorate([
         Component({

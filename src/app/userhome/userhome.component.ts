@@ -9,6 +9,7 @@ import {Http} from "@angular/http";
 export class UserhomeComponent implements OnInit {
   private data;
   private user = localStorage.getItem("user");
+
   constructor(private http: Http) { }
 
   ngOnInit() {

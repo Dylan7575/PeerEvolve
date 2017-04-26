@@ -14,6 +14,7 @@ export var EvalstatsComponent = (function () {
     function EvalstatsComponent(http) {
         this.http = http;
         this.sender = [];
+        this.scores = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
         this.evalid = localStorage.getItem("evalID");
         this.currentClass = localStorage.getItem("class");
     }
@@ -25,13 +26,16 @@ export var EvalstatsComponent = (function () {
     };
     EvalstatsComponent.prototype.getData = function () {
         var _this = this;
-        this.http.post('http://localhost/untitledfolder/EvalStats.php', JSON.stringify(this.sender))
+        this.http.post('http://localhost/untitledfolder/getScores.php', JSON.stringify(this.sender))
             .subscribe(function (res) { return _this.data = res.json(); });
     };
     EvalstatsComponent.prototype.downloadFile = function () {
         var blob = new Angular2Csv(this.data, "MyReport");
         var url = window.URL.createObjectURL(blob);
         window.open(url);
+    };
+    EvalstatsComponent.prototype.getStuff = function (users) {
+        return Object.keys(users).map(function (key) { return users[key]; });
     };
     EvalstatsComponent = __decorate([
         Component({

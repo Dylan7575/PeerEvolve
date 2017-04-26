@@ -9,9 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component } from '@angular/core';
 import { Http, Headers, RequestOptions } from "@angular/http";
+import { Router } from "@angular/router";
 export var HomeComponent = (function () {
-    function HomeComponent(http) {
+    function HomeComponent(http, router) {
         this.http = http;
+        this.router = router;
         this.headers = new Headers({ 'Content-Type': 'application/json' });
         this.options = new RequestOptions({ headers: this.headers });
     }
@@ -20,12 +22,16 @@ export var HomeComponent = (function () {
     };
     HomeComponent.prototype.getData = function () {
         var _this = this;
+        this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(function (res) { return _this.us = res.json(); });
         this.http.post('http://localhost/untitledfolder/GetClasses.php', JSON.stringify(localStorage.getItem("user"))).
             subscribe(function (res) { return _this.data = res.json(); });
         console.log(this.data);
+        this.http.post('http://localhost/untitledfolder/classStats.php', JSON.stringify(localStorage.getItem("class"))).
+            subscribe(function (res) { return _this.activeNum = res.json(); });
     };
     HomeComponent.prototype.setClass = function (toClass) {
         localStorage.setItem("class", toClass);
+        this.router.navigateByUrl("students");
     };
     HomeComponent = __decorate([
         Component({
@@ -33,7 +39,7 @@ export var HomeComponent = (function () {
             templateUrl: './home.component.html',
             styleUrls: ['./home.component.css']
         }), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [Http, Router])
     ], HomeComponent);
     return HomeComponent;
 }());

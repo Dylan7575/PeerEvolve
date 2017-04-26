@@ -10,33 +10,37 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { Http } from "@angular/http";
 import { Validators, FormBuilder } from "@angular/forms";
+import { DatePickerOptions } from 'ng2-datepicker';
+import { Router } from "@angular/router";
 export var PeerevalComponent = (function () {
-    function PeerevalComponent(http, fb) {
+    function PeerevalComponent(http, fb, router) {
         this.http = http;
         this.fb = fb;
+        this.router = router;
         this.temp = true;
         this.peerEnter = this.fb.group({
-            CD: ["", Validators.compose([Validators.required, Validators.pattern('2{1}[0-9][0-9][0-9]\-(0[1-9]|1[012])\-(0[1-9]|1[1-9]|2[1-9]|3[0-1])')])],
-            OD: ["", Validators.compose([Validators.required, Validators.pattern('2{1}[0-9][0-9][0-9]\-(0[1-9]|1[012])\-(0[1-9]|1[1-9]|2[1-9]|3[0-1])')])],
-            DD: ["", Validators.compose([Validators.required, Validators.pattern('2{1}[0-9][0-9][0-9]\-(0[1-9]|1[012])\-(0[1-9]|1[1-9]|2[1-9]|3[0-1])')])]
+            CD: ["", Validators.compose([Validators.required])],
+            OD: ["", Validators.compose([Validators.required])],
+            DD: ["", Validators.compose([Validators.required])]
         });
+        this.options = new DatePickerOptions();
     }
     PeerevalComponent.prototype.ngOnInit = function () {
     };
     PeerevalComponent.prototype.doLogin = function (event) {
         var _this = this;
         this.temp = false;
-        console.log(this.peerEnter.value);
-        var b = this.peerEnter.value;
-        var cd = b['CD'];
-        var od = b['OD'];
-        var dd = b['DD'];
+        var cd = this.date1.formatted;
+        var od = this.date.formatted;
+        var dd = this.date2.formatted;
         var list = [od, dd, cd, localStorage.getItem("user"), localStorage.getItem("class")];
         this.http.post('http://localhost/untitledfolder/IP.php', JSON.stringify(list))
             .subscribe(function (res) { return _this.data = res.json(); });
         //console.log(JSON.stringify(list));
-        console.log(this.data);
+        //console.log(this.data);
         this.peerEnter.reset();
+        alert("Evaluation successfully created");
+        this.router.navigateByUrl("curvals");
     };
     PeerevalComponent = __decorate([
         Component({
@@ -44,7 +48,7 @@ export var PeerevalComponent = (function () {
             templateUrl: './peereval.component.html',
             styleUrls: ['./peereval.component.css']
         }), 
-        __metadata('design:paramtypes', [Http, FormBuilder])
+        __metadata('design:paramtypes', [Http, FormBuilder, Router])
     ], PeerevalComponent);
     return PeerevalComponent;
 }());

@@ -11,6 +11,9 @@ import{Angular2Csv} from 'angular2-csv/Angular2-csv'
 export class EvalstatsComponent implements OnInit {
   private data;
   private sender=[];
+  private scores=[1,2,3,4,5,6,7,8,9,10];
+
+  private yes;
   private evalid=localStorage.getItem("evalID");
   constructor(public http:Http) { }
   private currentClass =localStorage.getItem("class");
@@ -22,8 +25,9 @@ export class EvalstatsComponent implements OnInit {
     this.getData();
   }
   getData(){
-    this.http.post('http://localhost/untitledfolder/EvalStats.php',JSON.stringify(this.sender))
+    this.http.post('http://localhost/untitledfolder/getScores.php',JSON.stringify(this.sender))
         .subscribe(res=>this.data=res.json());
+
 
 
   }
@@ -31,6 +35,10 @@ export class EvalstatsComponent implements OnInit {
     let blob= new Angular2Csv(this.data,"MyReport");
     let url = window.URL.createObjectURL(blob);
     window.open(url);
+  }
+  getStuff(users){
+    return Object.keys(users).map((key)=>{return users[key]})
+
   }
 
 }

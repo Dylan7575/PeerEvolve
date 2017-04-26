@@ -36,6 +36,10 @@ export class StudentsComponent implements OnInit,OnChanges {
   change(event){
     this.showing=event;
   }
+  saveID(studentID,GroupID){
+    localStorage.setItem("student",studentID);
+    localStorage.setItem("group",GroupID);
+  }
 
 
 }

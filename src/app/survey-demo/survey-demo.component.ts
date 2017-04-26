@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {DropDownQuestion, TextboxQuestion, ZeroSum} from "../../QuestionTextbox";
 import {QuestionModel} from "../QuestionModel";
+import {Http} from "@angular/http";
 
 @Component({
   selector: 'app-survey-demo',
@@ -9,9 +10,15 @@ import {QuestionModel} from "../QuestionModel";
 })
 export class SurveyDemoComponent  {
   questionModel = new QuestionModel();
-  users=['lwr22','dcl75'];
-  group="pandas";
-  constructor(){
+  currClass=localStorage.getItem("class");
+  group=localStorage.getItem("group");
+  list:string[]=[this.group,this.currClass];
+  data;
+  private users;//=['lwr22','dcl75'];
+  constructor(private http:Http){
+    this.http.post('http://localhost/untitledfolder/getGroups.php',JSON.stringify(this.list))
+        .subscribe(res=>this.users=res.json());
+    console.log(this.users);
     let question;
 
     question = new ZeroSum;

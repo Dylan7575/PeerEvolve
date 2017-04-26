@@ -38,6 +38,10 @@ export var StudentsComponent = (function () {
     StudentsComponent.prototype.change = function (event) {
         this.showing = event;
     };
+    StudentsComponent.prototype.saveID = function (studentID, GroupID) {
+        localStorage.setItem("student", studentID);
+        localStorage.setItem("group", GroupID);
+    };
     StudentsComponent = __decorate([
         Component({
             selector: 'app-students',

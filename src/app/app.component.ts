@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
     this.getData();
   }
   getData(){
-    this.data=localStorage.getItem('admin');
+    this.data=localStorage.getItem('class');
 
   }
 }

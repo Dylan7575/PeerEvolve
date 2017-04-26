@@ -14,22 +14,29 @@ export class UploadcsvComponent{
   private success='false';
   options: Object = {
     data:{'class':localStorage.getItem("class")},
-    url: 'http://localhost/untitledfolder/upload.php'
+    url: 'http://localhost/untitledfolder/upload.php',
+    filterExtensions:false,
+    allowedExtensions: ['image/png']
   };
   sizeLimit = 2000000;
   constructor(private router:Router){}
   handleUpload(data): void {
+    console.log(data.toString());
     if (data) {
       this.uploadFile = data;
       alert("File successfully uploaded");
       this.router.navigateByUrl("students");
+
     }
+
   }
+
 
   beforeUpload(uploadingFile): void {
     if (uploadingFile.size > this.sizeLimit) {
       uploadingFile.setAbort();
       alert('File is too large');
     }
+    console.log(uploadingFile.toString());
   }
 }

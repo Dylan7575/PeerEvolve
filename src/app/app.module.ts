@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {HttpModule, JsonpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -19,7 +19,7 @@ import { CurvalsComponent } from './curvals/curvals.component';
 import { EvalstatsComponent } from './evalstats/evalstats.component';
 import { NewclassComponent } from './newclass/newclass.component';
 import { UploadcsvComponent } from './uploadcsv/uploadcsv.component';
-import {AlertModule} from "ng2-bootstrap";
+import {AlertModule, DatePickerComponent} from "ng2-bootstrap";
 import { UploadComponent } from './upload/upload.component';
 import {Ng2UploaderModule} from 'ng2-uploader';
 import { PeertakeComponent } from './peertake/peertake.component';
@@ -27,6 +27,9 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { DynamicFormQuestionComponent } from './dynamic-form-question/dynamic-form-question.component';
 import { SurveyDemoComponent } from './survey-demo/survey-demo.component';
 import { SingleStudentComponent } from './single-student/single-student.component';
+import { EditStudentComponent } from './edit-student/edit-student.component';
+import {DatePickerModule} from "ng2-datepicker";
+import { DoerBarComponent } from './doer-bar/doer-bar.component';
 
 
 
@@ -48,6 +51,8 @@ import { SingleStudentComponent } from './single-student/single-student.componen
     DynamicFormQuestionComponent,
     SurveyDemoComponent,
     SingleStudentComponent,
+    EditStudentComponent,
+    DoerBarComponent,
 
 
   ],
@@ -59,7 +64,8 @@ import { SingleStudentComponent } from './single-student/single-student.componen
     NgbModule.forRoot(),
     AlertModule.forRoot(),
     Ng2UploaderModule,
-
+    JsonpModule,
+    DatePickerModule,
     RouterModule.forRoot([
       {path: '',redirectTo: 'home',pathMatch:'full'},
       {path: 'curvals/peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
@@ -70,7 +76,8 @@ import { SingleStudentComponent } from './single-student/single-student.componen
       {path: 'home/newclass',component:NewclassComponent},
       {path: 'students/uploadcsv',component:UploadcsvComponent},
       {path: 'userhome',component:UserhomeComponent},
-      {path: 'userhome/survey',component:SurveyDemoComponent}
+      {path: 'userhome/survey',component:SurveyDemoComponent},
+      {path: 'students/editstudents',component:EditStudentComponent}
 
 
 

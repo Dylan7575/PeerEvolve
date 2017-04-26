@@ -10,6 +10,7 @@ export class TopbarComponent implements OnInit {
   fullImagePath: String;
   private user = localStorage.getItem("user");
   private class= localStorage.getItem("class");
+
   isCollapsed = true;
   constructor() {
     this.fullImagePath='./assets/face.png'

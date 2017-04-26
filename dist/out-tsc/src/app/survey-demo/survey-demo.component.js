@@ -10,11 +10,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { ZeroSum } from "../../QuestionTextbox";
 import { QuestionModel } from "../QuestionModel";
+import { Http } from "@angular/http";
 export var SurveyDemoComponent = (function () {
-    function SurveyDemoComponent() {
+    function SurveyDemoComponent(http) {
+        var _this = this;
+        this.http = http;
         this.questionModel = new QuestionModel();
-        this.users = ['lwr22', 'dcl75'];
-        this.group = "pandas";
+        this.currClass = localStorage.getItem("class");
+        this.group = localStorage.getItem("group");
+        this.list = [this.group, this.currClass];
+        this.http.post('http://localhost/untitledfolder/getGroups.php', JSON.stringify(this.list))
+            .subscribe(function (res) { return _this.users = res.json(); });
+        console.log(this.users);
         var question;
         question = new ZeroSum;
         question.key = 'zerosum';
@@ -72,7 +79,7 @@ export var SurveyDemoComponent = (function () {
             templateUrl: './survey-demo.component.html',
             styleUrls: ['./survey-demo.component.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [Http])
     ], SurveyDemoComponent);
     return SurveyDemoComponent;
 }());

@@ -1,12 +1,18 @@
+<nav class="navbar navbar-fixed-top bg-faded">
+  <ul class="nav navbar-nav">
+    <li class="nav-item" routerLinkActive="active">
+    <li (click)="isCollapsed = true" class="nav-item" routerLinkActive="active">
+      <a class="nav-item nav-link" routerLink="home" routerLinkActive="active">PeerEvolve</a>
+    <li style="right:20px;position:absolute ">
+      <a class="nav-item nav-link" routerLinkActive="active"  href="http://localhost/untitledfolder/logout.php">Logout: {{user}}</a>
+    </li>
+  </ul>
 
 
-<div id = "logout" style = "text-align: right">
-<p style = "margin-bottom: 0">
-  Welcome {{user}}!
-</p>
-<a href ="http://localhost/untitledfolder/logout.php">Logout</a>
-</div>
 
+</nav>
+
+<!--
 <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
   <div class="clearfix">
   <button (click)="isCollapsed = !isCollapsed"
@@ -34,13 +40,12 @@
       </li>
       <li (click)="isCollapsed = true" class="nav-item" routerLinkActive="active">
         <a class="nav-item nav-link" routerLink="curvals" routerLinkActive="active">Evaluations</a>
-
       </li>
       <!--
       <li (click)="isCollapsed = true" class="nav-item" routerLinkActive="active">
         <a class="nav-item nav-link" routerLink="userhome" routerLinkActive="active">User Home</a>
 
-      </li>-->
+      </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li (click)="isCollapsed = true" class="nav-item">
@@ -50,6 +55,6 @@
   </div>
 
 </nav>
-<br>
+<br>-->
 
 
