@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule, NgSelectOption} from '@angular/forms';
 import {HttpModule, JsonpModule} from '@angular/http';
 
 import { AppComponent } from './app.component';
@@ -11,7 +11,7 @@ import { PeerevalComponent } from './peereval/peereval.component';
 
 import {AuthService} from "./auth.service";
 import { TopbarComponent } from './topbar/topbar.component';
-import{NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import{NgbModule, NgbDropdown} from '@ng-bootstrap/ng-bootstrap';
 import { StudentsComponent } from './students/students.component'
 import {AdminGuard} from "./admin.guard";
 import { UserhomeComponent } from './userhome/userhome.component';
@@ -30,6 +30,9 @@ import { SingleStudentComponent } from './single-student/single-student.componen
 import { EditStudentComponent } from './edit-student/edit-student.component';
 import {DatePickerModule} from "ng2-datepicker";
 import { DoerBarComponent } from './doer-bar/doer-bar.component';
+import { MakeGroupsComponent } from './make-groups/make-groups.component';
+import { ShowComponent } from './show/show.component';
+import {SelectModule} from "ng2-select";
 
 
 
@@ -53,8 +56,8 @@ import { DoerBarComponent } from './doer-bar/doer-bar.component';
     SingleStudentComponent,
     EditStudentComponent,
     DoerBarComponent,
-
-
+    MakeGroupsComponent,
+    ShowComponent,
   ],
   imports: [
     BrowserModule,
@@ -64,6 +67,7 @@ import { DoerBarComponent } from './doer-bar/doer-bar.component';
     NgbModule.forRoot(),
     AlertModule.forRoot(),
     Ng2UploaderModule,
+    SelectModule,
     JsonpModule,
     DatePickerModule,
     RouterModule.forRoot([
@@ -75,9 +79,10 @@ import { DoerBarComponent } from './doer-bar/doer-bar.component';
       {path: 'curvals/evalstats', component:EvalstatsComponent},
       {path: 'home/newclass',component:NewclassComponent},
       {path: 'students/uploadcsv',component:UploadcsvComponent},
-      {path: 'userhome',component:UserhomeComponent},
-      {path: 'userhome/survey',component:SurveyDemoComponent},
-      {path: 'students/editstudents',component:EditStudentComponent}
+      {path: 'userhome',component:UserhomeComponent,canActivate:[AuthService]},
+      {path: 'userhome/survey',component:SurveyDemoComponent,canActivate:[AuthService]},
+      {path: 'students/editstudents',component:EditStudentComponent,canActivate:[AuthService]},
+      {path: 'groups',component:ShowComponent}
 
 
 

@@ -19,6 +19,7 @@ export var SurveyDemoComponent = (function () {
         this.currClass = localStorage.getItem("class");
         this.group = localStorage.getItem("group");
         this.list = [this.group, this.currClass];
+        this.users = []; //=['lwr22','dcl75','zdp23'];
         this.http.post('http://localhost/untitledfolder/getGroups.php', JSON.stringify(this.list))
             .subscribe(function (res) { return _this.users = res.json(); });
         console.log(this.users);

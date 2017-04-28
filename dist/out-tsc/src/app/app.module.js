@@ -36,6 +36,9 @@ import { SingleStudentComponent } from './single-student/single-student.componen
 import { EditStudentComponent } from './edit-student/edit-student.component';
 import { DatePickerModule } from "ng2-datepicker";
 import { DoerBarComponent } from './doer-bar/doer-bar.component';
+import { MakeGroupsComponent } from './make-groups/make-groups.component';
+import { ShowComponent } from './show/show.component';
+import { SelectModule } from "ng2-select";
 export var AppModule = (function () {
     function AppModule() {
     }
@@ -60,6 +63,8 @@ export var AppModule = (function () {
                 SingleStudentComponent,
                 EditStudentComponent,
                 DoerBarComponent,
+                MakeGroupsComponent,
+                ShowComponent,
             ],
             imports: [
                 BrowserModule,
@@ -69,6 +74,7 @@ export var AppModule = (function () {
                 NgbModule.forRoot(),
                 AlertModule.forRoot(),
                 Ng2UploaderModule,
+                SelectModule,
                 JsonpModule,
                 DatePickerModule,
                 RouterModule.forRoot([
@@ -80,9 +86,10 @@ export var AppModule = (function () {
                     { path: 'curvals/evalstats', component: EvalstatsComponent },
                     { path: 'home/newclass', component: NewclassComponent },
                     { path: 'students/uploadcsv', component: UploadcsvComponent },
-                    { path: 'userhome', component: UserhomeComponent },
-                    { path: 'userhome/survey', component: SurveyDemoComponent },
-                    { path: 'students/editstudents', component: EditStudentComponent }
+                    { path: 'userhome', component: UserhomeComponent, canActivate: [AuthService] },
+                    { path: 'userhome/survey', component: SurveyDemoComponent, canActivate: [AuthService] },
+                    { path: 'students/editstudents', component: EditStudentComponent, canActivate: [AuthService] },
+                    { path: 'groups', component: ShowComponent }
                 ])
             ],
             providers: [AuthService, AdminGuard],

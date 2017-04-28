@@ -7,7 +7,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component, Output } from '@angular/core';
+import { Component, Output, Input } from '@angular/core';
 import { Validators, FormBuilder } from "@angular/forms";
 import { Http } from "@angular/http";
 import { EventEmitter } from "@angular/common/src/facade/async";
@@ -15,11 +15,13 @@ export var SingleStudentComponent = (function () {
     function SingleStudentComponent(http, fb) {
         this.http = http;
         this.fb = fb;
+        this.fail = localStorage.getItem("class");
         this.bool = false;
         this.test = new EventEmitter();
         this.studentEnter = this.fb.group({
             StudentID: ["", Validators.compose([Validators.required])],
-            Group: ["", Validators.compose([Validators.required])]
+            Group: ["", Validators.compose([Validators.required])],
+            Group2: ["", Validators.compose([Validators.required])]
         });
     }
     SingleStudentComponent.prototype.ngOnInit = function () {
@@ -40,6 +42,10 @@ export var SingleStudentComponent = (function () {
         Output(), 
         __metadata('design:type', Object)
     ], SingleStudentComponent.prototype, "test", void 0);
+    __decorate([
+        Input(), 
+        __metadata('design:type', Object)
+    ], SingleStudentComponent.prototype, "currClass", void 0);
     SingleStudentComponent = __decorate([
         Component({
             selector: 'app-single-student',

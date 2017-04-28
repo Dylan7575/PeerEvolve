@@ -20,12 +20,12 @@ export class HomeComponent implements OnInit {
 
   }
   getData(){
-    this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(res=>this.us=res.json());
+   // this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(res=>this.us=res.json());
     this.http.post('http://localhost/untitledfolder/GetClasses.php',JSON.stringify(localStorage.getItem("user"))).
         subscribe(res=>this.data=res.json());
-        console.log(this.data);
-    this.http.post('http://localhost/untitledfolder/classStats.php',JSON.stringify(localStorage.getItem("class"))).
-    subscribe(res=>this.activeNum=res.json());
+     //   console.log(this.data);
+   // this.http.post('http://localhost/untitledfolder/classStats.php',JSON.stringify(localStorage.getItem("class"))).
+   // subscribe(res=>this.activeNum=res.json());
 
   }
   setClass(toClass){

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 import {Http} from "@angular/http";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-newclass',
@@ -10,7 +11,7 @@ import {Http} from "@angular/http";
 export class NewclassComponent implements OnInit {
   private data;
   private temp=true;
-  constructor(private http:Http, public fb: FormBuilder) { }
+  constructor(private http:Http, public fb: FormBuilder,public router:Router) { }
 
   ngOnInit() {
   }
@@ -26,11 +27,13 @@ export class NewclassComponent implements OnInit {
     let b=this.classEnter.value;
     let Semester = b['Semester'];
     let CourseID = b['CourseID'];
-    let list: string[] = [Semester,CourseID];
+    let list: string[] = [Semester,CourseID,localStorage.getItem("user")];
 
 
     this.http.post('http://localhost/untitledfolder/InsertCourse.php',JSON.stringify(list))
         .subscribe(res=>this.data=res.json());
+    alert("Peer Evaluation Successfully Created");
+    this.router.navigateByUrl("students");
     //console.log(JSON.stringify(list));
 
 

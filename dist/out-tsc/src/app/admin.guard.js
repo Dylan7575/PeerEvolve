@@ -8,13 +8,20 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Injectable } from "@angular/core";
+import { Router } from "@angular/router";
 import { Http } from "@angular/http";
 export var AdminGuard = (function () {
-    function AdminGuard(http) {
+    function AdminGuard(http, router) {
         this.http = http;
+        this.router = router;
     }
     AdminGuard.prototype.canActivate = function () {
         var _this = this;
+        this.http.post('http://localhost/untitledfolder/getUserName.php', JSON.stringify(this.data))
+            .subscribe(function (res) { return _this.data = res.json(); });
+        localStorage.setItem("user", "dcl75");
+        if (localStorage.getItem("user") == null) {
+        }
         var user = localStorage.getItem("user");
         this.http.post('http://localhost/untitledfolder/admin.php', JSON.stringify(this.data))
             .subscribe(function (res) { return _this.data = res.json(); });
@@ -26,7 +33,7 @@ export var AdminGuard = (function () {
     };
     AdminGuard = __decorate([
         Injectable(), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [Http, Router])
     ], AdminGuard);
     return AdminGuard;
 }());

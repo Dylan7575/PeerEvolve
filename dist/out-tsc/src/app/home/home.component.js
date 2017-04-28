@@ -22,12 +22,12 @@ export var HomeComponent = (function () {
     };
     HomeComponent.prototype.getData = function () {
         var _this = this;
-        this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(function (res) { return _this.us = res.json(); });
+        // this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(res=>this.us=res.json());
         this.http.post('http://localhost/untitledfolder/GetClasses.php', JSON.stringify(localStorage.getItem("user"))).
             subscribe(function (res) { return _this.data = res.json(); });
-        console.log(this.data);
-        this.http.post('http://localhost/untitledfolder/classStats.php', JSON.stringify(localStorage.getItem("class"))).
-            subscribe(function (res) { return _this.activeNum = res.json(); });
+        //   console.log(this.data);
+        // this.http.post('http://localhost/untitledfolder/classStats.php',JSON.stringify(localStorage.getItem("class"))).
+        // subscribe(res=>this.activeNum=res.json());
     };
     HomeComponent.prototype.setClass = function (toClass) {
         localStorage.setItem("class", toClass);

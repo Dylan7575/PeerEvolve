@@ -5,13 +5,16 @@ import {Http, Headers, Response, RequestOptions} from "@angular/http";
 export class AuthService implements CanActivate {
   constructor(private http:Http){}
   private data;
+
   canActivate(route: ActivatedRouteSnapshot,State:RouterStateSnapshot):boolean {
+    localStorage.setItem("user","dcl75");
     let user = localStorage.getItem("user");
-    this.http.post('http://localhost/',JSON.stringify(user))
-        .subscribe(res=>this.data=res.json());
-    if (this.data != "auth"){
-      return false;
-    }
+   // this.http.post('http://localhost/',JSON.stringify(user))
+     //   .subscribe(res=>this.data=res.json());
+    //if (this.data != "auth"){
+    //  return false;
+    //}
+    return true;
   }
 
 }

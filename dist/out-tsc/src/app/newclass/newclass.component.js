@@ -10,10 +10,12 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 import { Component } from '@angular/core';
 import { FormBuilder, Validators } from "@angular/forms";
 import { Http } from "@angular/http";
+import { Router } from "@angular/router";
 export var NewclassComponent = (function () {
-    function NewclassComponent(http, fb) {
+    function NewclassComponent(http, fb, router) {
         this.http = http;
         this.fb = fb;
+        this.router = router;
         this.temp = true;
         this.classEnter = this.fb.group({
             Semester: ["", Validators.compose([Validators.required, Validators.minLength(1)])],
@@ -29,9 +31,11 @@ export var NewclassComponent = (function () {
         var b = this.classEnter.value;
         var Semester = b['Semester'];
         var CourseID = b['CourseID'];
-        var list = [Semester, CourseID];
+        var list = [Semester, CourseID, localStorage.getItem("user")];
         this.http.post('http://localhost/untitledfolder/InsertCourse.php', JSON.stringify(list))
             .subscribe(function (res) { return _this.data = res.json(); });
+        alert("Peer Evaluation Successfully Created");
+        this.router.navigateByUrl("students");
         //console.log(JSON.stringify(list));
     };
     NewclassComponent = __decorate([
@@ -40,7 +44,7 @@ export var NewclassComponent = (function () {
             templateUrl: './newclass.component.html',
             styleUrls: ['./newclass.component.css']
         }), 
-        __metadata('design:paramtypes', [Http, FormBuilder])
+        __metadata('design:paramtypes', [Http, FormBuilder, Router])
     ], NewclassComponent);
     return NewclassComponent;
 }());

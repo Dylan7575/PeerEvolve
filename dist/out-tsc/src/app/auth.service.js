@@ -14,13 +14,14 @@ export var AuthService = (function () {
         this.http = http;
     }
     AuthService.prototype.canActivate = function (route, State) {
-        var _this = this;
+        localStorage.setItem("user", "dcl75");
         var user = localStorage.getItem("user");
-        this.http.post('http://localhost/', JSON.stringify(user))
-            .subscribe(function (res) { return _this.data = res.json(); });
-        if (this.data != "auth") {
-            return false;
-        }
+        // this.http.post('http://localhost/',JSON.stringify(user))
+        //   .subscribe(res=>this.data=res.json());
+        //if (this.data != "auth"){
+        //  return false;
+        //}
+        return true;
     };
     AuthService = __decorate([
         Injectable(), 

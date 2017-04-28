@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 import {Http} from "@angular/http";
 import {RouterModule, Router} from "@angular/router";
@@ -13,7 +13,7 @@ export class EditStudentComponent implements OnInit {
   private group =localStorage.getItem("group");
   private course = localStorage.getItem("class");
   private data;
-
+  @Input() currClass;
   constructor(public fb:FormBuilder,public http:Http,public router:Router) {
   }
   private studedit =this.fb.group({

@@ -14,7 +14,7 @@ export class SurveyDemoComponent  {
   group=localStorage.getItem("group");
   list:string[]=[this.group,this.currClass];
   data;
-  private users;//=['lwr22','dcl75'];
+  private users=[]//=['lwr22','dcl75','zdp23'];
   constructor(private http:Http){
     this.http.post('http://localhost/untitledfolder/getGroups.php',JSON.stringify(this.list))
         .subscribe(res=>this.users=res.json());
