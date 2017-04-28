@@ -14,6 +14,7 @@ export var MakeGroupsComponent = (function () {
     function MakeGroupsComponent(fb, http) {
         this.fb = fb;
         this.http = http;
+        this.yes = "fdsaf";
         this.groupEnter = this.fb.group({
             Group: ["", Validators.compose([Validators.required])],
         });

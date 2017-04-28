@@ -17,8 +17,8 @@ export var AdminGuard = (function () {
     }
     AdminGuard.prototype.canActivate = function () {
         var _this = this;
-        this.http.post('http://localhost/untitledfolder/getUserName.php', JSON.stringify(this.data))
-            .subscribe(function (res) { return _this.data = res.json(); });
+        //this.http.post('http://localhost/untitledfolder/getUserName.php',JSON.stringify(this.data))
+        //     .subscribe(res=>this.data=res.json());
         localStorage.setItem("user", "dcl75");
         if (localStorage.getItem("user") == null) {
         }

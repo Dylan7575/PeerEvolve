@@ -13,8 +13,8 @@ export class AdminGuard implements CanActivate {
     private data;
 
     canActivate() {
-        this.http.post('http://localhost/untitledfolder/getUserName.php',JSON.stringify(this.data))
-            .subscribe(res=>this.data=res.json());
+        //this.http.post('http://localhost/untitledfolder/getUserName.php',JSON.stringify(this.data))
+       //     .subscribe(res=>this.data=res.json());
         localStorage.setItem("user","dcl75");
         if(localStorage.getItem("user")==null){
            // window.location.href="http://localhost/untitledfolder/index.html";

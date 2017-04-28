@@ -15,22 +15,25 @@ export var SingleStudentComponent = (function () {
     function SingleStudentComponent(http, fb) {
         this.http = http;
         this.fb = fb;
+        this.classID = localStorage.getItem("class");
         this.fail = localStorage.getItem("class");
         this.bool = false;
         this.test = new EventEmitter();
         this.studentEnter = this.fb.group({
             StudentID: ["", Validators.compose([Validators.required])],
             Group: ["", Validators.compose([Validators.required])],
-            Group2: ["", Validators.compose([Validators.required])]
         });
     }
     SingleStudentComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.http.post('http://localhost/untitledfolder/getCourseGroups.php', JSON.stringify(this.classID))
+            .subscribe(function (res) { return _this.options = res.json(); });
     };
     SingleStudentComponent.prototype.doLogin = function ($event) {
         var _this = this;
         var b = this.studentEnter.value;
         var cd = b['StudentID'];
-        var od = b['Group'];
+        var od = b['Group2'];
         var dd = localStorage.getItem("class");
         var list = [cd, od, dd];
         this.http.post('http://localhost/untitledfolder/singleStudent.php', JSON.stringify(list))

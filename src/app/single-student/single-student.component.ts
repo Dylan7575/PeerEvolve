@@ -14,6 +14,8 @@ import {ifError} from "assert";
 })
 export class SingleStudentComponent implements OnInit {
   private data;
+  private classID= localStorage.getItem("class");
+  private options;
   private fail = localStorage.getItem("class");
   private bool = false;
   @Output() test = new EventEmitter();
@@ -21,19 +23,20 @@ export class SingleStudentComponent implements OnInit {
   public studentEnter = this.fb.group({
     StudentID : ["", Validators.compose([Validators.required])],
     Group : ["", Validators.compose([Validators.required])],
-    Group2: ["", Validators.compose([Validators.required])]
   });
   constructor(private http:Http, public fb: FormBuilder) {
 
   }
 
   ngOnInit() {
+    this.http.post('http://localhost/untitledfolder/getCourseGroups.php',JSON.stringify(this.classID))
+        .subscribe(res=>this.options=res.json());
 
   }
   doLogin($event){
     let b=this.studentEnter.value;
     let cd = b['StudentID'];
-    let od = b['Group'];
+    let od = b['Group2'];
     let dd= localStorage.getItem("class");
     let list: string[] = [cd,od,dd];
 
