@@ -9,9 +9,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 import { Component, ChangeDetectorRef } from '@angular/core';
 import { Http } from "@angular/http";
+import { Router } from "@angular/router";
 export var StudentsComponent = (function () {
-    function StudentsComponent(ref, http) {
+    function StudentsComponent(router, ref, http) {
         var _this = this;
+        this.router = router;
         this.ref = ref;
         this.http = http;
         this.classID = localStorage.getItem("class");
@@ -48,7 +50,7 @@ export var StudentsComponent = (function () {
             templateUrl: './students.component.html',
             styleUrls: ['./students.component.css']
         }), 
-        __metadata('design:paramtypes', [ChangeDetectorRef, Http])
+        __metadata('design:paramtypes', [Router, ChangeDetectorRef, Http])
     ], StudentsComponent);
     return StudentsComponent;
 }());

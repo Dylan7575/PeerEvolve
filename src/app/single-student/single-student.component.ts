@@ -33,6 +33,11 @@ export class SingleStudentComponent implements OnInit {
         .subscribe(res=>this.options=res.json());
 
   }
+  changeStatus(event){
+    document.getElementsByTagName("option")[0].disabled=true;
+
+
+  }
   doLogin($event){
     let b=this.studentEnter.value;
     let cd = b['StudentID'];

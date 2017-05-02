@@ -17,19 +17,24 @@ export var AdminGuard = (function () {
     }
     AdminGuard.prototype.canActivate = function () {
         var _this = this;
-        //this.http.post('http://localhost/untitledfolder/getUserName.php',JSON.stringify(this.data))
-        //     .subscribe(res=>this.data=res.json());
-        localStorage.setItem("user", "dcl75");
-        if (localStorage.getItem("user") == null) {
-        }
-        var user = localStorage.getItem("user");
-        this.http.post('http://localhost/untitledfolder/admin.php', JSON.stringify(this.data))
-            .subscribe(function (res) { return _this.data = res.json(); });
-        if (this.data === "admin") {
-            localStorage.setItem("admin", "true");
-            return true;
-        }
+        localStorage.removeItem("user");
+        this.http.get('http://localhost/untitledfolder/getUserName.php', { withCredentials: true })
+            .subscribe(function (res) { return _this.data = res.json(); }, function (error) { return _this.error = error; }, function () { return _this.setData(); });
         return true;
+    };
+    AdminGuard.prototype.setData = function () {
+        if (this.data == "NONE") {
+            localStorage.clear();
+            window.location.href = "http://localhost/untitledfolder/login.php";
+        }
+        if (this.data[1] == "admin") {
+            localStorage.setItem("user", JSON.stringify(this.data[0]));
+        }
+        else {
+            localStorage.clear();
+            localStorage.setItem("user", JSON.stringify(this.data[0]));
+            this.router.navigateByUrl("/userhome");
+        }
     };
     AdminGuard = __decorate([
         Injectable(), 

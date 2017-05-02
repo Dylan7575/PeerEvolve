@@ -1,4 +1,4 @@
-import {Component, OnInit, OnChanges, DoCheck, AfterContentInit} from '@angular/core';
+import {Component, OnInit, OnChanges, DoCheck, AfterContentInit, ChangeDetectorRef} from '@angular/core';
 import {Http} from "@angular/http";
 
 @Component({
@@ -8,8 +8,9 @@ import {Http} from "@angular/http";
 })
 export class CurvalsComponent implements OnInit {
   public data;
+  private showing=false;
   currentClass= JSON.stringify(localStorage.getItem("class"));
-  constructor(public http:Http) { }
+  constructor(private ref: ChangeDetectorRef,public http:Http) { }
 
   ngOnInit() {
     this.getData();
@@ -18,6 +19,12 @@ export class CurvalsComponent implements OnInit {
     this.http.post('http://localhost/untitledfolder/GetVals.php',this.currentClass)
         .subscribe(res=>this.data=res.json());
     console.log(JSON.stringify(this.data));
+  }
+  change(event){
+    this.showing=event;
+  }
+  show(){
+    this.showing=true;
   }
   public  saveID(toStore){
     localStorage.setItem("evalID",toStore);

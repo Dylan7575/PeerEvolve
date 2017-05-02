@@ -71,18 +71,18 @@ import {SelectModule} from "ng2-select";
     JsonpModule,
     DatePickerModule,
     RouterModule.forRoot([
-      {path: '',redirectTo: 'home',pathMatch:'full'},
+      {path: '',redirectTo: 'home',pathMatch:'full' ,canActivate: [AdminGuard]},
       {path: 'curvals/peereval', component:PeerevalComponent, canActivate: [AdminGuard]},
       {path: 'home', component:HomeComponent,canActivate:[AdminGuard]},
       {path: 'students', component:StudentsComponent,canActivate:[AdminGuard]},
       {path: 'curvals', component:CurvalsComponent,canActivate:[AdminGuard]},
-      {path: 'curvals/evalstats', component:EvalstatsComponent},
-      {path: 'home/newclass',component:NewclassComponent},
-      {path: 'students/uploadcsv',component:UploadcsvComponent},
+      {path: 'curvals/evalstats', component:EvalstatsComponent,canActivate:[AdminGuard]},
+      {path: 'home/newclass',component:NewclassComponent,canActivate:[AdminGuard]},
+      {path: 'students/uploadcsv',component:UploadcsvComponent,canActivate:[AdminGuard]},
       {path: 'userhome',component:UserhomeComponent,canActivate:[AuthService]},
       {path: 'userhome/survey',component:SurveyDemoComponent,canActivate:[AuthService]},
       {path: 'students/editstudents',component:EditStudentComponent,canActivate:[AuthService]},
-      {path: 'groups',component:ShowComponent}
+      {path: 'groups',component:ShowComponent,canActivate:[AdminGuard]}
 
 
 

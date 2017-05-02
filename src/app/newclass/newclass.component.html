@@ -1,16 +1,12 @@
-<br>
-<br>
-<button routerLink ='/home'><span style ="font-size: xx-large" class = "glyphicon glyphicon-chevron-left"></span></button>
+
+
 <p>{{lol}}</p>
 <h1>Create a New Class</h1>
 
 <form [formGroup]="classEnter"  (ngSubmit)="doLogin($event)">
   <label>Semester</label><input  formControlName= "Semester" type = "text" >
   <label>CourseID</label><input formControlName= "CourseID" type = "text">
-  <select>
-    <option value = "default">Default</option>
-  </select>
 
 
-  <button  [disabled]= "!classEnter.valid" type="submit">Submit Peer Class</button>
+  <button  [disabled]= "!classEnter.valid" type="submit">Submit Class</button>
 </form>

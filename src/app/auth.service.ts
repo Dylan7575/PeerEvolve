@@ -1,20 +1,26 @@
 import { Injectable } from '@angular/core';
-import {CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot} from "@angular/router";
+import {CanActivate, ActivatedRouteSnapshot, RouterStateSnapshot, Router} from "@angular/router";
 import {Http, Headers, Response, RequestOptions} from "@angular/http";
 @Injectable()
 export class AuthService implements CanActivate {
-  constructor(private http:Http){}
+  constructor(private http:Http,private router:Router){}
   private data;
+  private error;
+  canActivate() {
 
-  canActivate(route: ActivatedRouteSnapshot,State:RouterStateSnapshot):boolean {
-    localStorage.setItem("user","dcl75");
-    let user = localStorage.getItem("user");
-   // this.http.post('http://localhost/',JSON.stringify(user))
-     //   .subscribe(res=>this.data=res.json());
-    //if (this.data != "auth"){
-    //  return false;
-    //}
+    this.http.get('http://localhost/untitledfolder/getUserName.php',{withCredentials:true})
+        .subscribe(res=>this.data=res.json(),error => this.error = error,() => this.setData());
     return true;
+  }
+  setData(){
+    if (this.data[1]=="admin"||this.data[1]==null){
+      this.router.navigateByUrl("home");
+    }
+    else{
+      localStorage.clear();
+      localStorage.setItem("user",JSON.stringify(this.data[0]));
+    }
+
   }
 
 }

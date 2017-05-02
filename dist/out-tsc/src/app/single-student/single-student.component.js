@@ -29,6 +29,9 @@ export var SingleStudentComponent = (function () {
         this.http.post('http://localhost/untitledfolder/getCourseGroups.php', JSON.stringify(this.classID))
             .subscribe(function (res) { return _this.options = res.json(); });
     };
+    SingleStudentComponent.prototype.changeStatus = function (event) {
+        document.getElementsByTagName("option")[0].disabled = true;
+    };
     SingleStudentComponent.prototype.doLogin = function ($event) {
         var _this = this;
         var b = this.studentEnter.value;

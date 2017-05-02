@@ -25,6 +25,23 @@ export var EditStudentComponent = (function () {
         });
     }
     EditStudentComponent.prototype.ngOnInit = function () {
+        var yes = document.getElementsByTagName("option");
+        console.log(yes);
+        for (var i = 0; i < yes.length; i++) {
+            var test = document.getElementsByTagName("option")[i];
+            console.log(test.value);
+            if (test.value == this.group) {
+                console.log("te");
+                test.selected = true;
+            }
+        }
+    };
+    EditStudentComponent.prototype.changeStatus = function () {
+        var yes = document.getElementsByTagName("option")[0].value;
+        console.log(yes);
+        if (yes == 'yees') {
+            document.getElementsByTagName("option")[0].disabled = true;
+        }
     };
     EditStudentComponent.prototype.update = function () {
         var _this = this;

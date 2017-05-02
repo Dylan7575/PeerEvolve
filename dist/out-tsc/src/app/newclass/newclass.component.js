@@ -7,16 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, Output } from '@angular/core';
 import { FormBuilder, Validators } from "@angular/forms";
 import { Http } from "@angular/http";
 import { Router } from "@angular/router";
+import { EventEmitter } from "@angular/common/src/facade/async";
 export var NewclassComponent = (function () {
     function NewclassComponent(http, fb, router) {
         this.http = http;
         this.fb = fb;
         this.router = router;
         this.temp = true;
+        this.test = new EventEmitter();
         this.classEnter = this.fb.group({
             Semester: ["", Validators.compose([Validators.required, Validators.minLength(1)])],
             CourseID: ["", Validators.compose([Validators.required, Validators.minLength(1)])],
@@ -34,10 +36,13 @@ export var NewclassComponent = (function () {
         var list = [Semester, CourseID, localStorage.getItem("user")];
         this.http.post('http://localhost/untitledfolder/InsertCourse.php', JSON.stringify(list))
             .subscribe(function (res) { return _this.data = res.json(); });
-        alert("Peer Evaluation Successfully Created");
-        this.router.navigateByUrl("students");
         //console.log(JSON.stringify(list));
+        this.test.emit(false);
     };
+    __decorate([
+        Output(), 
+        __metadata('design:type', Object)
+    ], NewclassComponent.prototype, "test", void 0);
     NewclassComponent = __decorate([
         Component({
             selector: 'app-newclass',

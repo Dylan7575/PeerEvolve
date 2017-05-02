@@ -1,6 +1,7 @@
 import {Component, OnInit, Output, OnChanges, ChangeDetectorRef} from '@angular/core';
 import {Http} from "@angular/http";
 import {FileUploader} from "ng2-file-upload";
+import {Router} from "@angular/router";
 
 
 @Component({
@@ -12,15 +13,15 @@ export class StudentsComponent implements OnInit,OnChanges {
   private data;
   private classID =localStorage.getItem("class");
   private showing = false;
-
-  constructor(private ref: ChangeDetectorRef,public http:Http) {
+  private test;
+  constructor(private router:Router,private ref: ChangeDetectorRef,public http:Http) {
 
     setInterval(() => {
       this.ref.detectChanges();
       this.getData();
     }, 1000);
   }
-  ngOnChanges(){
+  ngOnChanges() {
     this.getData();
   }
   ngOnInit() {

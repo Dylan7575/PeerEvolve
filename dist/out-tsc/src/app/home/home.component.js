@@ -7,18 +7,27 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { Http, Headers, RequestOptions } from "@angular/http";
 import { Router } from "@angular/router";
 export var HomeComponent = (function () {
-    function HomeComponent(http, router) {
+    function HomeComponent(http, router, ref) {
+        var _this = this;
         this.http = http;
         this.router = router;
+        this.ref = ref;
         this.headers = new Headers({ 'Content-Type': 'application/json' });
         this.options = new RequestOptions({ headers: this.headers });
+        setInterval(function () {
+            _this.ref.detectChanges();
+            _this.getData();
+        }, 1000);
     }
     HomeComponent.prototype.ngOnInit = function () {
         this.getData();
+    };
+    HomeComponent.prototype.change = function (event) {
+        this.showing = event;
     };
     HomeComponent.prototype.getData = function () {
         var _this = this;
@@ -33,13 +42,16 @@ export var HomeComponent = (function () {
         localStorage.setItem("class", toClass);
         this.router.navigateByUrl("students");
     };
+    HomeComponent.prototype.show = function () {
+        this.showing = true;
+    };
     HomeComponent = __decorate([
         Component({
             selector: 'app-home',
             templateUrl: './home.component.html',
             styleUrls: ['./home.component.css']
         }), 
-        __metadata('design:paramtypes', [Http, Router])
+        __metadata('design:paramtypes', [Http, Router, ChangeDetectorRef])
     ], HomeComponent);
     return HomeComponent;
 }());

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ChangeDetectorRef} from '@angular/core';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
@@ -8,12 +8,16 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 })
 export class TopbarComponent implements OnInit {
   fullImagePath: String;
-  private user = localStorage.getItem("user");
+  private user = JSON.parse(localStorage.getItem("user"));
   private class= localStorage.getItem("class");
 
   isCollapsed = true;
-  constructor() {
-    this.fullImagePath='./assets/face.png'
+  constructor(private ref: ChangeDetectorRef) {
+    this.fullImagePath='./assets/face.png';
+    setInterval(() => {
+      this.ref.detectChanges();
+      this.user = JSON.parse(localStorage.getItem("user"));
+    }, 1000);
   }
 
   ngOnInit() {

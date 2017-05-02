@@ -8,24 +8,31 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 import { Injectable } from '@angular/core';
+import { Router } from "@angular/router";
 import { Http } from "@angular/http";
 export var AuthService = (function () {
-    function AuthService(http) {
+    function AuthService(http, router) {
         this.http = http;
+        this.router = router;
     }
-    AuthService.prototype.canActivate = function (route, State) {
-        localStorage.setItem("user", "dcl75");
-        var user = localStorage.getItem("user");
-        // this.http.post('http://localhost/',JSON.stringify(user))
-        //   .subscribe(res=>this.data=res.json());
-        //if (this.data != "auth"){
-        //  return false;
-        //}
+    AuthService.prototype.canActivate = function () {
+        var _this = this;
+        this.http.get('http://localhost/untitledfolder/getUserName.php', { withCredentials: true })
+            .subscribe(function (res) { return _this.data = res.json(); }, function (error) { return _this.error = error; }, function () { return _this.setData(); });
         return true;
+    };
+    AuthService.prototype.setData = function () {
+        if (this.data[1] == "admin" || this.data[1] == null) {
+            this.router.navigateByUrl("home");
+        }
+        else {
+            localStorage.clear();
+            localStorage.setItem("user", JSON.stringify(this.data[0]));
+        }
     };
     AuthService = __decorate([
         Injectable(), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [Http, Router])
     ], AuthService);
     return AuthService;
 }());

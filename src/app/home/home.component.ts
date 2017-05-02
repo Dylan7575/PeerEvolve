@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ChangeDetectorRef} from '@angular/core';
 import {Http, Headers, Response, RequestOptions} from "@angular/http";
 import {ajaxGet} from "rxjs/observable/dom/AjaxObservable";
 import {Router} from "@angular/router";
@@ -12,12 +12,22 @@ export class HomeComponent implements OnInit {
   private data;
   private us;
   private activeNum;
+  private showing;
   headers =new Headers({ 'Content-Type': 'application/json' });
   options = new RequestOptions({ headers: this.headers });
-  constructor(private http:Http,private router: Router) {}
+  constructor(private http:Http,private router: Router,private ref:ChangeDetectorRef) {
+    setInterval(() => {
+      this.ref.detectChanges();
+      this.getData();
+    }, 1000);
+
+  }
   ngOnInit() {
     this.getData();
 
+  }
+  change(event){
+    this.showing=event;
   }
   getData(){
    // this.http.get("http://localhost/untitledfolder/getUserName.php").subscribe(res=>this.us=res.json());
@@ -31,6 +41,9 @@ export class HomeComponent implements OnInit {
   setClass(toClass){
     localStorage.setItem("class",toClass);
     this.router.navigateByUrl("students");
+  }
+  show(){
+    this.showing=true;
   }
   /*
   getData(){

@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Output} from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 import {Http} from "@angular/http";
 import {Router} from "@angular/router";
+import {EventEmitter} from "@angular/common/src/facade/async";
 
 @Component({
   selector: 'app-newclass',
@@ -12,6 +13,7 @@ export class NewclassComponent implements OnInit {
   private data;
   private temp=true;
   constructor(private http:Http, public fb: FormBuilder,public router:Router) { }
+  @Output() test = new EventEmitter();
 
   ngOnInit() {
   }
@@ -32,9 +34,8 @@ export class NewclassComponent implements OnInit {
 
     this.http.post('http://localhost/untitledfolder/InsertCourse.php',JSON.stringify(list))
         .subscribe(res=>this.data=res.json());
-    alert("Peer Evaluation Successfully Created");
-    this.router.navigateByUrl("students");
     //console.log(JSON.stringify(list));
+    this.test.emit(false);
 
 
   }

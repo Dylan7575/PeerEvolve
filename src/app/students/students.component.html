@@ -1,8 +1,5 @@
 <div class = "page-header"><h1>Students In {{classID}}<small><button class="btn btn-success" routerLink ="uploadcsv">Upload CSV</button></small></h1></div>
-<button class="btn btn-primary btn-circle btn-lg" (click)="show()"><i class="glyphicon glyphicon-plus-sign"></i></button>
-<div *ngIf="showing">
-    <app-single-student [currClass]="classID" (test) = "change($event)"></app-single-student>
-</div>
+<p>{{test}}</p>
 <ul  class="list-group">
 
         <li class="list-group-item" *ngFor="let student of data">
@@ -14,3 +11,7 @@
         </li>
 
 </ul>
+<button class="btn btn-primary btn-circle btn-lg" (click)="show()"><i class="glyphicon glyphicon-plus-sign"></i></button>
+<div *ngIf="showing">
+    <app-single-student [currClass]="classID" (test) = "change($event)"></app-single-student>
+</div>

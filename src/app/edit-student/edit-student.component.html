@@ -1,10 +1,17 @@
 <br>
 <br>
 
-<h1>Create a new Peer Evaluation</h1>
+<h1>Edit {{student}}</h1>
   <button style="display:inline-block;margin-right: 1%" (click)="deleter()" >Delete User</button>
   <form [formGroup]="studedit"  (ngSubmit)="update($event)">
     <label>Student ID:</label><input formControlName="Stud" type ="text" placeholder={{student}}>
+    <select id = "select" formControlName="Group" (change)="changeStatus($event)" required >
+      <option value="yees" id="disable" >Please select a group</option>
+      <option value="PeerEvolve">no</option>
+      <option *ngFor="let option of options" value={{option.Groups}}>
+        {{yess}}
+      </option>
+    </select>
     <label>Group:</label><input type ="text" formControlName="Group" placeholder={{group}}>
     <button [disabled]= "!studedit.valid" type="submit">Submit Peer Evaluation</button>
 

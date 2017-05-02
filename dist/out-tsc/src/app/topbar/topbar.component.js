@@ -7,13 +7,19 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 export var TopbarComponent = (function () {
-    function TopbarComponent() {
-        this.user = localStorage.getItem("user");
+    function TopbarComponent(ref) {
+        var _this = this;
+        this.ref = ref;
+        this.user = JSON.parse(localStorage.getItem("user"));
         this.class = localStorage.getItem("class");
         this.isCollapsed = true;
         this.fullImagePath = './assets/face.png';
+        setInterval(function () {
+            _this.ref.detectChanges();
+            _this.user = JSON.parse(localStorage.getItem("user"));
+        }, 1000);
     }
     TopbarComponent.prototype.ngOnInit = function () {
     };
@@ -30,7 +36,7 @@ export var TopbarComponent = (function () {
             templateUrl: './topbar.component.html',
             styleUrls: ['./topbar.component.css']
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [ChangeDetectorRef])
     ], TopbarComponent);
     return TopbarComponent;
 }());

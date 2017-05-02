@@ -7,11 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-import { Component } from '@angular/core';
+import { Component, ChangeDetectorRef } from '@angular/core';
 import { Http } from "@angular/http";
 export var CurvalsComponent = (function () {
-    function CurvalsComponent(http) {
+    function CurvalsComponent(ref, http) {
+        this.ref = ref;
         this.http = http;
+        this.showing = false;
         this.currentClass = JSON.stringify(localStorage.getItem("class"));
     }
     CurvalsComponent.prototype.ngOnInit = function () {
@@ -23,6 +25,12 @@ export var CurvalsComponent = (function () {
             .subscribe(function (res) { return _this.data = res.json(); });
         console.log(JSON.stringify(this.data));
     };
+    CurvalsComponent.prototype.change = function (event) {
+        this.showing = event;
+    };
+    CurvalsComponent.prototype.show = function () {
+        this.showing = true;
+    };
     CurvalsComponent.prototype.saveID = function (toStore) {
         localStorage.setItem("evalID", toStore);
     };
@@ -32,7 +40,7 @@ export var CurvalsComponent = (function () {
             templateUrl: './curvals.component.html',
             styleUrls: ['./curvals.component.css']
         }), 
-        __metadata('design:paramtypes', [Http])
+        __metadata('design:paramtypes', [ChangeDetectorRef, Http])
     ], CurvalsComponent);
     return CurvalsComponent;
 }());

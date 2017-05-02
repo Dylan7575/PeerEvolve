@@ -2,6 +2,7 @@ import {Component, OnInit, Input} from '@angular/core';
 import {FormBuilder, Validators} from "@angular/forms";
 import {Http} from "@angular/http";
 import {RouterModule, Router} from "@angular/router";
+import {forEach} from "@angular/router/src/utils/collection";
 
 @Component({
   selector: 'app-edit-student',
@@ -22,6 +23,25 @@ export class EditStudentComponent implements OnInit {
 
   });
   ngOnInit() {
+    let yes =document.getElementsByTagName("option");
+    console.log(yes);
+    for(let i=0;i<yes.length;i++){
+      let test=document.getElementsByTagName("option")[i];
+      console.log(test.value);
+      if(test.value==this.group){
+        console.log("te");
+        test.selected=true;
+      }
+
+    }
+
+  }
+  changeStatus(){
+    let yes =document.getElementsByTagName("option")[0].value;
+    console.log(yes);
+    if(yes=='yees'){
+        document.getElementsByTagName("option")[0].disabled=true;
+    }
   }
   update(){
 
